@@ -1,0 +1,7617 @@
+{
+  "gnupg|2.2.27": [],
+  "javascript-common|11": [],
+  "arp-scan|1.10.0": [],
+  "debian gnu/linux 12 (bookworm)|12.10": [],
+  "python3|3.10.6": [],
+  "gcc-11|11.4.0": [],
+  "man-db|2.11.2": [],
+  "lighttpd-mod-openssl|1.4.69": [],
+  "lua-luv|1.36.0": [],
+  "x11-common|1:7.7": [],
+  "openssh-sftp-server|1:9.2": [],
+  "xtrans-dev|1.4.0": [],
+  "openjdk-11-jdk-headless|11.0.26": [],
+  "xxd|2:8.2.3995": [],
+  "ssh|1:8.9": [],
+  "git-man|1:2.34.1": [],
+  "openjdk-11-jdk|11.0.26": [],
+  "xauth|1:1.1": [],
+  "busybox-static|1:1.30.1": [],
+  "zip|3.0": [
+    {
+      "id": "CVE-2005-2856",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-1057",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2010-1513",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2010-2917",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9351",
+      "score": 6.0
+    },
+    {
+      "id": "CVE-2018-13410",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2018-8009",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2020-25866",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2021-26028",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2021-24284",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2023-46104",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-23952",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-27317",
+      "score": 8.4
+    }
+  ],
+  "mc-data|3:4.8.29": [],
+  "gcc-11-base|11.4.0": [],
+  "gcc-12|12.2.0": [],
+  "gnupg|2.2.40": [],
+  "java-common|0.72": [],
+  "nbtscan|1.7.2": [],
+  "strace|5.16": [],
+  "openssl|3.0.2": [
+    {
+      "id": "CVE-2014-4993",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2019-17185",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2022-0778",
+      "score": 7.5
+    }
+  ],
+  "gcc-12-base|12.2.0": [],
+  "gpg|2.2.27": [],
+  "man-db|2.10.2": [],
+  "gcc|4:12.2.0": [],
+  "aria2|1.36.0": [],
+  "netbase|6.3": [],
+  "zlib1g|1:1.2.11.": [],
+  "pastebinit|1.5.1": [],
+  "python3.10-dev|3.10.12": [],
+  "zabbix-agent2|1:7.0.11": [],
+  "gzip|1.10": [
+    {
+      "id": "CVE-2017-14992",
+      "score": 4.3
+    }
+  ],
+  "gpg|2.2.40": [],
+  "cpp|4:11.2.0": [],
+  "php-curl|2:8.2": [],
+  "pastebinit|1.6.2": [],
+  "python3.10|3.10.12": [],
+  "nftables|1.0.6": [],
+  "nmap|7.93": [],
+  "openssh-sftp-server|1:8.9": [],
+  "xkb-data|2.33": [],
+  "lighttpd|1.4.69": [],
+  "php-common|2:93": [],
+  "openjdk-11-jre|11.0.26": [],
+  "php-xml|2:8.2": [],
+  "ubuntu 22.04.5 lts|22.04.5": [],
+  "php-fpm|2:8.2": [],
+  "php|2:8.2": [],
+  "php-cgi|2:8.2": [],
+  "php8.2-cgi|8.2.28": [],
+  "gnupg2|2.2.27": [],
+  "netbase|6.4": [],
+  "openssh-client|1:8.9": [],
+  "cracklib-runtime|2.9.6": [],
+  "php8.2-common|8.2.28": [],
+  "mc|3:4.8.27": [],
+  "gzip|1.12": [
+    {
+      "id": "CVE-2017-14992",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2024-56514",
+      "score": -1.0
+    }
+  ],
+  "php8.2-curl|8.2.28": [],
+  "iotop|0.6": [],
+  "ieee-data|20220827.1": [],
+  "zabbix-release|1:7.0": [],
+  "postfix|3.6.4": [],
+  "php-sqlite3|2:8.2": [],
+  "php8.2-readline|8.2.28": [],
+  "php8.2-cli|8.2.28": [],
+  "gnupg-l10n|2.2.27": [],
+  "mailcap|3.70": [],
+  "mc-data|3:4.8.27": [],
+  "openssh-client|1:9.2": [],
+  "php8.2-sqlite3|8.2.28": [],
+  "php8.2-opcache|8.2.28": [],
+  "python3|3.11.2": [],
+  "gcc-12-base|12.3.0": [],
+  "postfix|3.7.11": [],
+  "mc|3:4.8.29": [],
+  "cpp-11|11.4.0": [],
+  "apache2-data|2.4.62": [],
+  "php8.2|8.2.28": [],
+  "python3.11|3.11.2": [],
+  "php8.2-xml|8.2.28": [],
+  "php8.2-fpm|8.2.28": [],
+  "apache2|2.4.62": [],
+  "lighttpd-mod-deflate|1.4.69": [],
+  "glpi-agent|1:1.11": [],
+  "reportbug|12.0.0": [],
+  "docker-ce|5:28.0.2": [],
+  "zabbix-agent2|1:7.0.10": [],
+  "docker-ce|5:28.0.4": [],
+  "x11proto-dev|2021.5": [],
+  "cpp|4:12.2.0": [],
+  "openssh-server|1:9.2": [],
+  "git|1:2.34.1": [],
+  "python3.11-dev|3.11.2": [],
+  "xclip|0.13": [],
+  "rpcsvc-proto|1.4.3": [],
+  "spawn-fcgi|1.6.4": [],
+  "fluent-bit|3.2.10": [],
+  "tmux|3.3": [
+    {
+      "id": "CVE-2019-9535",
+      "score": 9.8
+    }
+  ],
+  "wazuh-agent|4.11.1": [],
+  "sqlite3|3.40.1": [],
+  "gcc|4:11.2.0": [],
+  "lftp|4.9.2": [],
+  "lua-lpeg|1.0.2": [],
+  "tasksel-data|3.73": [],
+  "unzip|6.0": [
+    {
+      "id": "CVE-2014-9636",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-7696",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-7697",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2014-9913",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2016-9844",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2018-1000035",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2018-18384",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2019-13232",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2014-8139",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2014-8140",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2014-8141",
+      "score": 7.8
+    }
+  ],
+  "nmap-common|7.93": [],
+  "cpp-12|12.2.0": [],
+  "wakeonlan|0.41": [],
+  "zlib1g-dev|1:1.2.13.": [],
+  "bareos-common|23.0.2": [],
+  "rpcbind|1.2.6": [],
+  "openjdk-11-jre-headless|11.0.26": [],
+  "tasksel|3.73": [],
+  "postgresql-14|14.12": [],
+  "mdadm|4.2": [],
+  "postgresql-client-14|14.12": [],
+  "gnupg-l10n|2.2.40": [],
+  "wazuh-agent|4.7.2": [],
+  "libref-array1|0.6.2": [],
+  "ssh-import-id|5.11": [],
+  "tmux|3.2": [],
+  "runit-helper|2.15.2": [],
+  "nftables|1.0.2": [],
+  "neovim|0.6.1": [],
+  "finalrd|9": [],
+  "git|1:2.39.5": [],
+  "polkitd|0.105": [],
+  "glpi-agent|1:1.7.1": [],
+  "cloud-initramfs-copymods|0.47": [],
+  "ssh|1:9.2": [],
+  "wireless-regdb|2024.10.07": [],
+  "cassandra|4.0.17": [],
+  "sysstat|12.5.2": [],
+  "wazuh-agent|4.12.0": [],
+  "postgresql-common|241.": [],
+  "needrestart|3.5": [
+    {
+      "id": "CVE-2022-30688",
+      "score": 7.8
+    }
+  ],
+  "vim|2:8.2.3995": [],
+  "openssh-server|1:8.9": [],
+  "openjdk-11-jdk|11.0.27": [],
+  "openssl|3.0.15": [],
+  "open-iscsi|2.1.5": [
+    {
+      "id": "CVE-2020-13867",
+      "score": 5.5
+    }
+  ],
+  "cloud-init|24.4.1": [],
+  "ubuntu 22.04.4 lts|22.04.4": [],
+  "rpcsvc-proto|1.4.2": [],
+  "docker-ce|5:28.0.3": [],
+  "netdata-repo|5": [],
+  "zlib1g|1:1.2.13.": [],
+  "btop|1.2.3": [],
+  "overlayroot|0.47": [],
+  "pollinate|4.33": [],
+  "postgresql-client-14|14.18": [],
+  "git-man|1:2.39.5": [],
+  "postgresql-client-common|241.": [],
+  "postgresql-14-pldebugger|1:1.5": [],
+  "nfs-common|1:2.6.1": [],
+  "gitlab-runner|16.11.1": [],
+  "usbmuxd|1.1.1": [],
+  "zabbix-release|1:7.2": [],
+  "postgresql|14": [
+    {
+      "id": "CVE-2006-6469",
+      "score": 5.8
+    },
+    {
+      "id": "CVE-2016-1255",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2019-19475",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-0985",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2024-4317",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-7348",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-10976",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10977",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-10978",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10979",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-1094",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-4207",
+      "score": 5.9
+    }
+  ],
+  "cloud-init|24.1.3": [],
+  "udisks2|2.9.4": [],
+  "zerofree|1.1.1": [],
+  "zlib1g-dev|1:1.2.11.": [],
+  "python3.10-venv|3.10.12": [],
+  "bareos-common|24.0.2": [],
+  "zabbix-agent2|1:7.2.4": [],
+  "openjdk-8-jre-headless|8": [],
+  "python-babel-localedata|2.8.0": [],
+  "openjdk-11-jre-headless|11.0.27": [],
+  "zabbix-agent2|1:7.2.5": [],
+  "openjdk-11-jre|11.0.27": [],
+  "vikunja|0.24.6": [],
+  "postgresql-common|238": [],
+  "docker.io|27.5.1": [],
+  "postgresql-contrib|14": [],
+  "galera-4|26.4.9": [],
+  "apache2|2.4.52": [],
+  "wireless-regdb|2022.06.06": [],
+  "openjdk-11-jdk-headless|11.0.27": [],
+  "busybox-initramfs|1:1.30.1": [],
+  "postgresql-client-common|238": [],
+  "certbot|4.1.1": [],
+  "mysql-common|5.8": [],
+  "mlock|8:2007": [],
+  "apache2-data|2.4.52": [],
+  "mariadb-server|1:10.6.22": [],
+  "ubuntu-fan|0.12.16": [],
+  "mariadb-server-10.6|1:10.6.22": [],
+  "php8.1-mysql|8.1.32": [],
+  "iio-sensor-proxy|3.3": [],
+  "php-common|2:95": [],
+  "mariadb-client-10.6|1:10.6.22": [],
+  "lua-cjson|2.1.0": [],
+  "php8.1-common|8.1.32": [],
+  "php8.1-mbstring|8.1.32": [],
+  "php7.4-bcmath|1:7.4.33": [],
+  "php8.1-intl|8.1.32": [],
+  "php8.1-cgi|8.1.32": [],
+  "apache2-doc|2.4.52": [],
+  "php7.4|1:7.4.33": [],
+  "php8.1-gd|8.1.32": [],
+  "php8.1-bcmath|8.1.32": [],
+  "php8.1-imap|8.1.32": [],
+  "cortex|3.1.8": [],
+  "etckeeper|1.18.16": [],
+  "php7.4-common|1:7.4.33": [],
+  "socat|1.7.4.1": [],
+  "librhash0|1.4.2": [],
+  "wpasupplicant|2:2.10": [],
+  "mariadb-common|1:10.6.22": [],
+  "cmake|3.22.1": [],
+  "lua-bitop|1.0.2": [],
+  "xnest|2:21.1.4": [],
+  "php8.3|8.3.13": [],
+  "php7.4-gnupg|1.5.1": [],
+  "php8.3-gnupg|1.5.1": [],
+  "google-chrome-stable|134.0.6998.165": [],
+  "g++-12|12.2.0": [],
+  "fio|3.28": [],
+  "neofetch|7.1.0": [],
+  "openjdk-21-jre|21.0.6": [],
+  "jp2a|1.1.1": [],
+  "apache2-data|2.4.63": [],
+  "erlang-crypto|1:24.2.1": [],
+  "erlang-snmp|1:24.2.1": [],
+  "mongodb-org|7.0.18": [],
+  "locales-all|2.35": [],
+  "php8.2-mbstring|8.2.28": [],
+  "rpm-common|4.17.0": [],
+  "mingw-w64-common|8.0.0": [],
+  "heimdal-multidev|7.7.0": [],
+  "mingw-w64-i686-dev|8.0.0": [],
+  "texlive-base|2021.20220204": [],
+  "snmp|5.9.1": [],
+  "texlive-latex-base|2021.20220204": [],
+  "xsltproc|1.1.34": [],
+  "firefox|1:1": [],
+  "g++|4:12.2.0": [],
+  "texlive-latex-extra|2021.20220204": [],
+  "firefox|135.0": [
+    {
+      "id": "CVE-2025-1414",
+      "score": 6.5
+    }
+  ],
+  "forticlient|7.2.2.0753": [],
+  "gcc-12|12.3.0": [],
+  "gparted|1.3.1": [],
+  "gvfs|1.48.2": [],
+  "g++-11|11.4.0": [],
+  "php8.3-xml|8.3.13": [],
+  "gvfs-daemons|1.48.2": [],
+  "postgresql-15|15.4": [],
+  "tracker|3.3.0": [],
+  "virtualbox-qt|6.1.50": [],
+  "virtualbox|6.1.50": [],
+  "ubuntu-desktop|1.481.4": [],
+  "php8.2-bz2|8.2.28": [],
+  "xserver-xorg-input-wacom|1:1.0.0": [],
+  "xserver-xorg-legacy|2:21.1.4": [],
+  "g++|4:11.2.0": [],
+  "zenity|3.42.1": [],
+  "postgresql-client|15": [],
+  "nginx|1.26.3": [],
+  "postgresql-server-dev-14|14.18": [],
+  "php-json|2:8.1": [],
+  "php-psr-container|2.0.2": [],
+  "lua-luv|1.44.2": [],
+  "php-gd|2:8.1": [],
+  "bison|2:3.8.2": [],
+  "php-symfony-cache-contracts|2.4.0": [],
+  "smbclient|2:4.15.13": [],
+  "php-twig-i18n-extension|3.0.0": [],
+  "php-symfony-polyfill-php81|1.24.0": [],
+  "php-xmlrpc|3:1.0.0": [],
+  "php8.1-mysql|8.1.2": [],
+  "php8.1-common|8.1.2": [],
+  "evince-common|42.3": [],
+  "wazuh-agent|4.9.0": [
+    {
+      "id": "CVE-2024-35177",
+      "score": 7.8
+    }
+  ],
+  "mariadb-common|1:10.6.18": [],
+  "dhcpcd-base|1:10.0.6": [],
+  "mc|3:4.8.30": [],
+  "mc-data|3:4.8.30": [],
+  "lua-luv|1.48.0": [],
+  "ghostscript-x|9.55.0": [],
+  "nftables|1.0.9": [],
+  "netplan-generator|1.1.1": [],
+  "openssh-sftp-server|1:9.6": [],
+  "polkitd|124": [],
+  "python3|3.12.3": [],
+  "trace-cmd|3.2": [],
+  "python3.12-dev|3.12.3": [],
+  "zlib1g|1:1.3.": [],
+  "python-babel-localedata|2.10.3": [],
+  "mkcert|1.4.4": [],
+  "unrtf|0.21.10": [],
+  "x11-apps|7.7": [],
+  "ubuntu-advantage-desktop-daemon|1.10.": [],
+  "g++-13|13.3.0": [],
+  "openjdk-11-jre-headless|11.0.26+4-1ubuntu1~22.04": [],
+  "openjdk-11-jdk|11.0.26+4-1ubuntu1~22.04": [],
+  "gcc-12-base|12.3.0-1ubuntu1~22.04": [],
+  "unzip|6.0-26ubuntu3.2": [
+    {
+      "id": "CVE-2014-9636",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-7696",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-7697",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2014-9913",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2016-9844",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2018-1000035",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2018-18384",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2019-13232",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2014-8139",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2014-8140",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2014-8141",
+      "score": 7.8
+    }
+  ],
+  "pastebinit|1.5.1-1ubuntu1": [],
+  "lua-luv|1.36.0-0-1": [],
+  "lua-lpeg|1.0.2-2": [],
+  "mailcap|3.70+nmu1": [],
+  "nftables|1.0.6-2+deb12u2": [],
+  "nmap|7.93+dfsg1-1": [],
+  "zabbix-release|1:7.0-2+ubuntu22.04": [],
+  "openssh-client|1:8.9p1-3ubuntu0.11": [],
+  "x11proto-dev|2021.5-1": [],
+  "gzip|1.12-1": [
+    {
+      "id": "CVE-2017-14992",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2024-56514",
+      "score": -1.0
+    }
+  ],
+  "mc-data|3:4.8.27-1": [],
+  "neovim|0.6.1-3": [],
+  "openjdk-11-jre|11.0.26+4-1ubuntu1~22.04": [],
+  "docker-ce|5:28.0.2-1~ubuntu.22.04~jammy": [],
+  "cpp|4:12.2.0-3": [],
+  "openssh-sftp-server|1:9.2p1-2+deb12u5": [],
+  "gcc-12|12.2.0-14": [],
+  "glpi-agent|1:1.11-1": [],
+  "git|1:2.34.1-1ubuntu1.12": [],
+  "nbtscan|1.7.2-2": [],
+  "man-db|2.11.2-2": [
+    {
+      "id": "CVE-2009-5145",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2021-20841",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2022-34321",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-0396",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-24372",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-32431",
+      "score": -1.0
+    },
+    {
+      "id": "CVE-2025-47952",
+      "score": -1.0
+    }
+  ],
+  "mc|3:4.8.27-1": [],
+  "man-db|2.10.2-1": [
+    {
+      "id": "CVE-2012-1035",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2013-7449",
+      "score": 5.8
+    },
+    {
+      "id": "CVE-2009-5145",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2022-33684",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2022-46792",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2023-39945",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2023-39946",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2023-39947",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2018-25092",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2018-25093",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2023-50716",
+      "score": 9.6
+    },
+    {
+      "id": "CVE-2025-30215",
+      "score": 9.6
+    }
+  ],
+  "gnupg|2.2.27-3ubuntu2.1": [],
+  "mc|3:4.8.29-2": [],
+  "python3.10|3.10.12-1~22.04.9": [],
+  "lighttpd|1.4.69-1": [],
+  "zabbix-agent2|1:7.0.11-1+ubuntu22.04": [],
+  "zlib1g-dev|1:1.2.11.dfsg-2ubuntu9.2": [],
+  "gnupg-l10n|2.2.27-3ubuntu2.1": [],
+  "zabbix-agent2|1:7.0.10-1+ubuntu22.04": [],
+  "xkb-data|2.33-1": [],
+  "nftables|1.0.2-1ubuntu3": [],
+  "php|2:8.2+93": [],
+  "iotop|0.6-24-g733f3f8-1.1ubuntu0.1": [],
+  "apache2|2.4.62-1~deb12u2": [],
+  "vim|2:8.2.3995-1ubuntu2.23": [],
+  "cpp-11|11.4.0-1ubuntu1~22.04": [],
+  "cracklib-runtime|2.9.6-3.4build4": [],
+  "pastebinit|1.6.2-1": [],
+  "php-curl|2:8.2+93": [],
+  "php8.2-opcache|8.2.28-1~deb12u1": [],
+  "gzip|1.10-4ubuntu4.1": [
+    {
+      "id": "CVE-2017-14992",
+      "score": 4.3
+    }
+  ],
+  "ubuntu 22.04.5 lts|22.04.5 LTS (Jammy Jellyfish)": [],
+  "php8.2-common|8.2.28-1~deb12u1": [],
+  "mc-data|3:4.8.29-2": [],
+  "gpg|2.2.40-1.1": [],
+  "strace|5.16-0ubuntu3": [],
+  "php-sqlite3|2:8.2+93": [],
+  "php8.2-fpm|8.2.28-1~deb12u1": [],
+  "php-xml|2:8.2+93": [],
+  "java-common|0.72build2": [],
+  "arp-scan|1.10.0-2": [],
+  "cpp|4:11.2.0-1ubuntu1": [],
+  "php8.2-cgi|8.2.28-1~deb12u1": [],
+  "gnupg-l10n|2.2.40-1.1": [],
+  "php8.2-cli|8.2.28-1~deb12u1": [],
+  "php8.2|8.2.28-1~deb12u1": [],
+  "php-fpm|2:8.2+93": [],
+  "php8.2-sqlite3|8.2.28-1~deb12u1": [],
+  "aria2|1.36.0-1": [],
+  "gpg|2.2.27-3ubuntu2.1": [],
+  "php8.2-curl|8.2.28-1~deb12u1": [],
+  "php8.2-readline|8.2.28-1~deb12u1": [],
+  "openssh-server|1:8.9p1-3ubuntu0.11": [],
+  "openssl|3.0.15-1~deb12u1": [],
+  "cpp-12|12.2.0-14": [],
+  "postfix|3.7.11-0+deb12u1": [],
+  "rpcsvc-proto|1.4.3-1": [],
+  "apache2-data|2.4.62-1~deb12u2": [],
+  "python3.11-dev|3.11.2-6+deb12u5": [],
+  "python3|3.11.2-1+b1": [],
+  "mailcap|3.70+nmu1ubuntu1": [],
+  "sqlite3|3.40.1-2+deb12u1": [],
+  "spawn-fcgi|1.6.4-2": [],
+  "ssh|1:9.2p1-2+deb12u5": [],
+  "python3.11|3.11.2-6+deb12u5": [],
+  "xclip|0.13-2": [],
+  "lighttpd-mod-openssl|1.4.69-1": [],
+  "wakeonlan|0.41-12.1": [],
+  "php8.2-xml|8.2.28-1~deb12u1": [],
+  "openssh-server|1:9.2p1-2+deb12u5": [],
+  "tmux|3.3a-3": [
+    {
+      "id": "CVE-2019-9535",
+      "score": 9.8
+    }
+  ],
+  "libref-array1|0.6.2-1": [],
+  "nmap-common|7.93+dfsg1-1": [],
+  "zip|3.0-12build2": [
+    {
+      "id": "CVE-2005-2856",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-1057",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2010-1513",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2010-2917",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9351",
+      "score": 6.0
+    },
+    {
+      "id": "CVE-2018-13410",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2018-8009",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2020-25866",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2021-26028",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2021-24284",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2023-46104",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-23952",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-27317",
+      "score": 8.4
+    }
+  ],
+  "openssh-sftp-server|1:8.9p1-3ubuntu0.11": [],
+  "gcc-11-base|11.4.0-1ubuntu1~22.04": [],
+  "zlib1g|1:1.2.13.dfsg-1": [],
+  "xtrans-dev|1.4.0-1": [],
+  "wazuh-agent|4.11.1-1": [],
+  "x11-common|1:7.7+23ubuntu2": [],
+  "openjdk-11-jdk-headless|11.0.26+4-1ubuntu1~22.04": [],
+  "unzip|6.0-28": [
+    {
+      "id": "CVE-2014-9636",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-7696",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-7697",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2014-9913",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2016-9844",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2018-1000035",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2018-18384",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2019-13232",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2014-8139",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2014-8140",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2014-8141",
+      "score": 7.8
+    }
+  ],
+  "php-cgi|2:8.2+93": [],
+  "python3.10-dev|3.10.12-1~22.04.9": [],
+  "gnupg|2.2.40-1.1": [],
+  "zip|3.0-13": [
+    {
+      "id": "CVE-2005-2856",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-1057",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2010-1513",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2010-2917",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9351",
+      "score": 6.0
+    },
+    {
+      "id": "CVE-2018-13410",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2018-8009",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2020-25866",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2021-26028",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2021-24284",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2023-46104",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-23952",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-27317",
+      "score": 8.4
+    }
+  ],
+  "openssh-client|1:9.2p1-2+deb12u5": [],
+  "xxd|2:8.2.3995-1ubuntu2.23": [],
+  "cracklib-runtime|2.9.6-5+b1": [],
+  "openssl|3.0.2-0ubuntu1.19": [
+    {
+      "id": "CVE-2014-4993",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2019-17185",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2022-0778",
+      "score": 7.5
+    }
+  ],
+  "lighttpd-mod-deflate|1.4.69-1": [],
+  "zlib1g-dev|1:1.2.13.dfsg-1": [],
+  "cloud-initramfs-copymods|0.47ubuntu1": [],
+  "gnupg2|2.2.27-3ubuntu2.1": [],
+  "zlib1g|1:1.2.11.dfsg-2ubuntu9.2": [],
+  "gcc|4:11.2.0-1ubuntu1": [],
+  "busybox-static|1:1.30.1-7ubuntu3": [],
+  "busybox-initramfs|1:1.30.1-7ubuntu3": [],
+  "bareos-common|23.0.2~pre16.6cb6b931e-45": [],
+  "git-man|1:2.34.1-1ubuntu1.11": [],
+  "finalrd|9build1": [],
+  "openssh-server|1:8.9p1-3ubuntu0.7": [],
+  "gcc-11|11.4.0-1ubuntu1~22.04": [],
+  "gcc-12-base|12.2.0-14": [],
+  "git|1:2.34.1-1ubuntu1.11": [],
+  "glpi-agent|1:1.7.1-1": [],
+  "postfix|3.6.4-1ubuntu1.3": [],
+  "openssh-sftp-server|1:8.9p1-3ubuntu0.7": [],
+  "busybox-static|1:1.30.1-7ubuntu3.1": [],
+  "postgresql-client-common|241.pgdg22.04+1": [],
+  "cloud-init|24.1.3-0ubuntu1~22.04.5": [],
+  "polkitd|0.105-33": [],
+  "rpcsvc-proto|1.4.2-0ubuntu6": [],
+  "mdadm|4.2-0ubuntu2": [],
+  "lftp|4.9.2-1build1": [],
+  "postgresql-common|241.pgdg22.04+1": [],
+  "postgresql-client-14|14.12-0ubuntu0.22.04.1": [
+    {
+      "id": "CVE-2024-4317",
+      "score": 3.1
+    }
+  ],
+  "rpcbind|1.2.6-2build1": [],
+  "sysstat|12.5.2-2ubuntu0.2": [],
+  "needrestart|3.5-5ubuntu2.1": [
+    {
+      "id": "CVE-2022-30688",
+      "score": 7.8
+    }
+  ],
+  "udisks2|2.9.4-1ubuntu2": [],
+  "ssh|1:8.9p1-3ubuntu0.11": [],
+  "ubuntu 22.04.4 lts|22.04.4 LTS (Jammy Jellyfish)": [],
+  "nfs-common|1:2.6.1-1ubuntu1.2": [],
+  "git-man|1:2.34.1-1ubuntu1.12": [],
+  "xxd|2:8.2.3995-1ubuntu2.17": [],
+  "docker-ce|5:28.0.4-1~ubuntu.22.04~jammy": [],
+  "python3|3.10.6-1~22.04.1": [],
+  "openssh-client|1:8.9p1-3ubuntu0.7": [],
+  "usbmuxd|1.1.1-2build2": [],
+  "postgresql-14-pldebugger|1:1.5-2.pgdg22.04+1": [],
+  "open-iscsi|2.1.5-1ubuntu1": [
+    {
+      "id": "CVE-2004-2329",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2007-0846",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-0847",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4372",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4373",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4374",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4375",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2012-2582",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2019-11269",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-13867",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2021-32682",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2022-23612",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2023-51662",
+      "score": 6.0
+    },
+    {
+      "id": "CVE-2025-31843",
+      "score": 4.3
+    }
+  ],
+  "tmux|3.2a-4ubuntu0.2": [],
+  "gcc|4:12.2.0-3": [],
+  "pollinate|4.33-3ubuntu2": [],
+  "python3|3.10.6-1~22.04": [],
+  "overlayroot|0.47ubuntu1": [],
+  "python-babel-localedata|2.8.0+dfsg.1-7": [
+    {
+      "id": "CVE-2018-6461",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2022-21728",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2022-23586",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2022-33684",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2024-40647",
+      "score": 5.3
+    }
+  ],
+  "python3.10|3.10.12-1~22.04.3": [],
+  "zabbix-release|1:7.0-1+ubuntu22.04": [],
+  "btop|1.2.3-2": [],
+  "postgresql-14|14.12-0ubuntu0.22.04.1": [
+    {
+      "id": "CVE-2024-4317",
+      "score": 3.1
+    }
+  ],
+  "vim|2:8.2.3995-1ubuntu2.17": [],
+  "wazuh-agent|4.7.2-1": [
+    {
+      "id": "CVE-2023-50260",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-32038",
+      "score": 9.8
+    }
+  ],
+  "docker-ce|5:28.0.3-1~ubuntu.22.04~jammy": [],
+  "xauth|1:1.1-1build2": [],
+  "wazuh-agent|4.12.0-1": [],
+  "ssh-import-id|5.11-0ubuntu1": [],
+  "zerofree|1.1.1-1build3": [],
+  "openssh-client|1:8.9p1-3ubuntu0.13": [],
+  "openssl|3.0.2-0ubuntu1.15": [
+    {
+      "id": "CVE-2014-4993",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2019-17185",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2022-0778",
+      "score": 7.5
+    }
+  ],
+  "gnupg|2.2.27-3ubuntu2.3": [],
+  "python3.10-dev|3.10.12-1~22.04.10": [],
+  "udisks2|2.9.4-1ubuntu2.2": [],
+  "xxd|2:8.2.3995-1ubuntu2.24": [],
+  "pollinate|4.33-3ubuntu2.1": [],
+  "vim|2:8.2.3995-1ubuntu2.24": [],
+  "git-man|1:2.39.5-0+deb12u2": [],
+  "zabbix-release|1:7.2-1+ubuntu22.04": [],
+  "openjdk-11-jdk-headless|11.0.27+6~us1-0ubuntu1~22.04": [],
+  "docker.io|27.5.1-0ubuntu3~22.04.2": [],
+  "wireless-regdb|2024.10.07-0ubuntu1~22.04.1": [],
+  "python3.10-venv|3.10.12-1~22.04.9": [],
+  "openjdk-11-jre-headless|11.0.27+6~us1-0ubuntu1~22.04": [],
+  "openjdk-11-jre|11.0.27+6~us1-0ubuntu1~22.04": [],
+  "zabbix-agent2|1:7.2.4-1+ubuntu22.04": [],
+  "javascript-common|11+nmu1": [
+    {
+      "id": "CVE-2005-2276",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2008-4166",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2011-0681",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2011-1691",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2011-4682",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2011-4690",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2012-1541",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2013-2737",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2013-3893",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2013-3897",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2013-5325",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2014-0514",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2014-0521",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2014-1770",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2014-8448",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2014-8451",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2011-1796",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-3060",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3061",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3062",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3063",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3064",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3065",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3066",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3067",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3068",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3069",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3071",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3072",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3073",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-3074",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-4435",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-4438",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-4441",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-4445",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-4447",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-4451",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2015-4452",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2015-5085",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-5086",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-2482",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2015-6707",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6708",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6709",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6710",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6711",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6712",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6713",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-6714",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6715",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6716",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6717",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6718",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6719",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6720",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6721",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6722",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6723",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6724",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6725",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-7614",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-7616",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-7618",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-7619",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-7620",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-7623",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-6045",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2016-0943",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-0162",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-1038",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-1039",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-1040",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-1041",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-1042",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-1044",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-1062",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-1117",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-3202",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2016-3212",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-3248",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2016-3259",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2016-3260",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2016-3273",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2016-4215",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-6957",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-3382",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2016-3390",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2016-7202",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2017-2955",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-2956",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-2957",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-2958",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-0037",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2016-3015",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-3031",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-3037",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2017-3047",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-3056",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-3057",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2016-8927",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-3038",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-0893",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-3032",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-5888",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-6035",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-6053",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9701",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-9733",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-9746",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-6114",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-8946",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-8948",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-8950",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-1321",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2016-6019",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-8952",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-6118",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-8975",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-9715",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-9718",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-1199",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-6121",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-11254",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2017-3113",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2016-6021",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-13138",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9732",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-2973",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-2979",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-2967",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-2975",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-1427",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2017-1485",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-1535",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2016-3048",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-16370",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-16371",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-16372",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-16375",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-16388",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-16389",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-16390",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-16393",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-16398",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-16414",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2017-16419",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2017-16420",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2018-5071",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2018-7205",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2018-4113",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2018-1413",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2018-7681",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2018-12123",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2018-20061",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2018-4210",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2018-1895",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2018-1908",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2019-5514",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2019-4238",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2019-4139",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2018-1921",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2019-3591",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2019-4342",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2019-4645",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2019-4555",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2019-4623",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2019-18652",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2020-5195",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2020-5853",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-4162",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2019-12445",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-4384",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-4298",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-4182",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2020-4183",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2020-13653",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2020-4702",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2019-20903",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-4679",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2020-4680",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-4681",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-4741",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-24442",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2020-24443",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2020-26272",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2021-21079",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2021-21080",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2020-4997",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2019-25027",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2021-22331",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2021-20386",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2019-4653",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-4354",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-26885",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2021-31832",
+      "score": 5.2
+    },
+    {
+      "id": "CVE-2021-29712",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2021-21893",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2021-30969",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2021-30975",
+      "score": 8.6
+    },
+    {
+      "id": "CVE-2020-13639",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2021-36062",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2021-36063",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2021-23037",
+      "score": 9.6
+    },
+    {
+      "id": "CVE-2021-39184",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2021-40721",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2021-29771",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2021-29735",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2021-20493",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2021-38909",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2021-45979",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2021-45980",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2021-34994",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2021-45224",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-23013",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2021-46065",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2021-40420",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2022-22150",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2022-24358",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2021-42136",
+      "score": 9.0
+    },
+    {
+      "id": "CVE-2021-45228",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2021-38946",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2021-38952",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-22322",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-22427",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-22443",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-27230",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2022-27878",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2022-28716",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2021-27760",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2022-30557",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2021-39047",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2021-39074",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-34166",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-34167",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-28681",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-28682",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2022-34873",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2022-34874",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2022-34875",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2022-26842",
+      "score": 9.6
+    },
+    {
+      "id": "CVE-2022-28712",
+      "score": 9.0
+    },
+    {
+      "id": "CVE-2022-30690",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-32770",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-32771",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-32772",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-32777",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2022-32778",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2021-41780",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2021-41781",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2021-41782",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2021-41783",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2021-41784",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2021-41785",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2022-40748",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-30615",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-35642",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-34315",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-34317",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-40753",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-39160",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-47983",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-23475",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2023-25761",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-25928",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2022-37376",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2022-37377",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2022-37378",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2022-37380",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2022-37383",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2022-37386",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2022-46389",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2021-39036",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2023-28529",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2023-29549",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2023-33846",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-25835",
+      "score": 8.4
+    },
+    {
+      "id": "CVE-2023-25841",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2023-25929",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2020-27449",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-43909",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2023-30435",
+      "score": 8.9
+    },
+    {
+      "id": "CVE-2023-30436",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2023-42029",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2023-43015",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-42009",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-42022",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-46174",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-50823",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2023-47861",
+      "score": 9.0
+    },
+    {
+      "id": "CVE-2023-48728",
+      "score": 9.6
+    },
+    {
+      "id": "CVE-2023-5118",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-33843",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-38359",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2023-43051",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-50303",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-29944",
+      "score": 8.4
+    },
+    {
+      "id": "CVE-2024-25698",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-25700",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-25705",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-25709",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-4367",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2023-47710",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-28795",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-28798",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2024-28797",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2023-50964",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-28794",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-40690",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-43368",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-8384",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2024-9393",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-9394",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-25691",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-25694",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-25701",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-25702",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-25707",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-38038",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-8149",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2024-46964",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2024-49550",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-54032",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2024-54034",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2024-54036",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2024-54039",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-54040",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-54041",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-54042",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-54043",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-54044",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-54045",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-54046",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-54047",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-54048",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-54049",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-55342",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2024-55341",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2024-41746",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2023-46187",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-49791",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2024-49792",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-49793",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-28776",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-10904",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51942",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51944",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51945",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51946",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51947",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51948",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51949",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51950",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51951",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51952",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51953",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51956",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51957",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51959",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51960",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-51963",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-5888",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2025-3028",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-56475",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-26159",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-4083",
+      "score": 9.1
+    },
+    {
+      "id": "CVE-2025-1087",
+      "score": -1.0
+    },
+    {
+      "id": "CVE-2025-3440",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-40631",
+      "score": -1.0
+    },
+    {
+      "id": "CVE-2025-40632",
+      "score": -1.0
+    },
+    {
+      "id": "CVE-2025-4918",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-4919",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-49137",
+      "score": 8.5
+    },
+    {
+      "id": "CVE-2025-0917",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2024-52900",
+      "score": 6.4
+    }
+  ],
+  "galera-4|26.4.9-1build1": [],
+  "mariadb-client-10.6|1:10.6.22-0ubuntu0.22.04.1": [],
+  "mariadb-common|1:10.6.22-0ubuntu0.22.04.1": [],
+  "php8.1-intl|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "apache2|2.4.52-1ubuntu4.14": [],
+  "postgresql-client-14|14.18-0ubuntu0.22.04.1": [
+    {
+      "id": "CVE-2025-4207",
+      "score": 5.9
+    }
+  ],
+  "postgresql-14|14.18-0ubuntu0.22.04.1": [
+    {
+      "id": "CVE-2025-4207",
+      "score": 5.9
+    }
+  ],
+  "php8.1-cgi|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "runc|1.1.12-0ubuntu2~22.04.1": [
+    {
+      "id": "CVE-2024-21626",
+      "score": 8.6
+    }
+  ],
+  "php-common|2:95+ubuntu22.04.1+deb.sury.org+2": [],
+  "apache2-data|2.4.52-1ubuntu4.14": [],
+  "php8.1|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "postgresql|14+238": [
+    {
+      "id": "CVE-2006-6469",
+      "score": 5.8
+    },
+    {
+      "id": "CVE-2016-1255",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2019-19475",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-0985",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2024-4317",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-7348",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-10976",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10977",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-10978",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10979",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-1094",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-4207",
+      "score": 5.9
+    }
+  ],
+  "php8.1-gd|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.1-mysql|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "python2.7|2.7.18-13ubuntu1.5": [],
+  "xserver-common|2:21.1.4-2ubuntu1.7~22.04.13": [],
+  "virtualenv|20.13.0+ds-2": [],
+  "wkhtmltopdf|0.12.6-2": [
+    {
+      "id": "CVE-2022-35583",
+      "score": 9.8
+    }
+  ],
+  "xnest|2:21.1.4-2ubuntu1.7~22.04.13": [],
+  "augeas-lenses|1.13.0-1": [],
+  "php7.4-dev|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "php-pear|1:1.10.12+submodules+notgz+20210212-1ubuntu3": [],
+  "php7.4-gd|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "openjdk-17-jre-headless|17.0.14+7-1~22.04.1": [],
+  "sqlite3|3.37.2-2ubuntu0.4": [],
+  "php8.3|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-common|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-readline|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "php-xml|2:8.3+95+ubuntu22.04.1+deb.sury.org+1": [],
+  "cloud-init|24.3.1-0ubuntu0~22.04.1": [],
+  "mariadb-client|1:10.6.22-0ubuntu0.22.04.1": [],
+  "openjdk-17-jre|17.0.14+7-1~22.04.1": [],
+  "php8.3-apcu|5.1.24-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-mysql|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.3-bcmath|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.3-common|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.3-cli|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.3-curl|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "openjdk-17-jdk-headless|17.0.14+7-1~22.04.1": [],
+  "php8.3-readline|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "openjdk-17-jdk|17.0.14+7-1~22.04.1": [],
+  "php8.3-zip|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "imagemagick-6-common|8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5": [],
+  "apache2-data|2.4.63-1+ubuntu22.04.1+deb.sury.org+2": [],
+  "python3.12|3.12.9-1+jammy1": [],
+  "php8.3-dev|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.3-xml|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.3-gnupg|1.5.1-6+ubuntu22.04.1+deb.sury.org+1": [],
+  "odbcinst1debian2|2.3.9-5ubuntu0.1": [],
+  "postgresql-client-15|15.4-2.pgdg20.04+1": [],
+  "unixodbc-common|2.3.9-5ubuntu0.1": [],
+  "proj-data|8.2.1-1": [],
+  "zabbix-agent2|1:7.0.13-1+ubuntu22.04": [],
+  "neofetch|7.1.0-3": [],
+  "postgresql-client-11|11.21-1.pgdg20.04+1": [],
+  "netpbm|2:10.0-15.4": [],
+  "firebird3.0-common|3.0.8.33535.ds4-1ubuntu2": [],
+  "erlang-crypto|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "g++-12|12.2.0-14": [
+    {
+      "id": "CVE-2017-10084",
+      "score": 4.0
+    },
+    {
+      "id": "CVE-2017-10202",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2018-2832",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2018-2912",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2018-2913",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2018-2914",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2019-2516",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2019-2619",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2020-2512",
+      "score": 5.9
+    },
+    {
+      "id": "CVE-2020-2515",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2020-2517",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2020-14744",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2020-14745",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2022-24620",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-24814",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2023-21463",
+      "score": 4.0
+    }
+  ],
+  "php7.4-cli|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "locales-all|2.35-0ubuntu3.10": [],
+  "php8.1-common|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.2-intl|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "gcc-mingw-w64|10.3.0-14ubuntu1+24.3": [],
+  "php8.2-xml|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "comerr-dev|2.1-1.46.5-2ubuntu1.2": [],
+  "gcc-mingw-w64-i686-posix|10.3.0-14ubuntu1+24.3": [],
+  "clang-14|1:14.0.0-1ubuntu1.1": [],
+  "gcc-mingw-w64-x86-64|10.3.0-14ubuntu1+24.3": [],
+  "mariadb-server-10.6|1:10.6.22-0ubuntu0.22.04.1": [],
+  "heimdal-dev|7.7.0+dfsg-3ubuntu1": [],
+  "python3.12-venv|3.12.9-1+jammy1": [],
+  "mingw-w64-x86-64-dev|8.0.0-1": [],
+  "tex-common|6.17": [],
+  "xmlstarlet|1.6.1-2.1": [],
+  "cpp-12|12.3.0-1ubuntu1~22.04": [],
+  "evince|42.3-0ubuntu3.1": [],
+  "evince-common|42.3-0ubuntu3.1": [],
+  "google-chrome-stable|134.0.6998.165-1": [],
+  "firefox|1:1snap1-0ubuntu2": [],
+  "docker-ce|5:27.3.1-1~ubuntu.22.04~jammy": [],
+  "ghostscript|9.55.0~dfsg1-0ubuntu5.10": [],
+  "gparted-common|1.3.1-1ubuntu1": [],
+  "memtest86+|5.31b+dfsg-4": [],
+  "ocl-icd-libopencl1|2.2.14-3": [],
+  "pipewire|0.3.48-1ubuntu3": [],
+  "ubuntu-docs|22.04.5": [],
+  "postgresql-15-postgis-3-scripts|3.4.0+dfsg-1.pgdg20.04+1": [],
+  "virtualbox-qt|6.1.50-dfsg-1~ubuntu1.22.04.3": [],
+  "ubuntu-advantage-desktop-daemon|1.10.ubuntu0.22.04.2": [
+    {
+      "id": "CVE-2016-1247",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2018-1000135",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2019-12749",
+      "score": 3.6
+    }
+  ],
+  "virtualbox-dkms|6.1.50-dfsg-1~ubuntu1.22.04.3": [],
+  "xdg-desktop-portal-gnome|42.1-0ubuntu2": [],
+  "xcvt|0.1.1-3": [],
+  "xorg|1:7.7+23ubuntu2": [],
+  "xserver-xorg|1:7.7+23ubuntu2": [],
+  "xwayland|2:22.1.1-1ubuntu0.14": [],
+  "yelp|42.1-1": [],
+  "zenity-common|3.42.1-0ubuntu1": [],
+  "yelp-xsl|42.0-1": [],
+  "rabbitmq-server|3.9.27-0ubuntu0.2": [],
+  "nginx|1.26.3-1~bookworm": [],
+  "xserver-xorg-input-wacom|1:1.0.0-3ubuntu1": [],
+  "mysql-common|5.8+1.1.0": [
+    {
+      "id": "CVE-2019-10748",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2021-39200",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2021-39201",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2021-39202",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2021-39203",
+      "score": 6.8
+    }
+  ],
+  "openssh-server|1:9.2p1-2+deb12u6": [],
+  "zabbix-agent2|1:7.2.6-1+ubuntu22.04": [],
+  "zabbix-release|1:7.0-2+debian12": [],
+  "python3.11|3.11.2-6+deb12u6": [],
+  "ibverbs-providers|44.0-2": [],
+  "lua-luv|1.44.2-0-1": [],
+  "certbot|1.21.0-1build1": [],
+  "checkpolicy|3.3-1": [],
+  "php-json|2:8.1+92ubuntu1": [],
+  "texlive-latex-recommended|2021.20220204-1": [],
+  "php-phpmyadmin-motranslator|5.2.0-1build1": [
+    {
+      "id": "CVE-2006-5465",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5706",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2006-6383",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2006-7087",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2007-1359",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-1399",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2007-1452",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2007-1453",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-1454",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2007-1460",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2007-1522",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-1575",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-1576",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2007-1584",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-1638",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-1639",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2007-1889",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-1900",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2007-0448",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2007-4441",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2007-4586",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-2302",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2009-2304",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2010-4097",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2013-1465",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2020-19199",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2022-2407",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2020-22452",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2024-54373",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-56281",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-30849",
+      "score": 8.1
+    }
+  ],
+  "php-psr-log|3.0.0-1": [
+    {
+      "id": "CVE-2001-1011",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2006-5413",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-7120",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2007-2594",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-2939",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-4312",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-4313",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2008-4775",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2009-2378",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-5053",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2010-4725",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2011-3773",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2016-5674",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-5675",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2018-13021",
+      "score": 9.0
+    },
+    {
+      "id": "CVE-2018-1000811",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2015-9340",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2021-3007",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2021-24217",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2023-32110",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2025-2882",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-47778",
+      "score": -1.0
+    }
+  ],
+  "php-xml|2:8.1+92ubuntu1": [],
+  "texlive-latex-base|2021.20220204-1": [],
+  "openvpn|2.5.11-0ubuntu0.22.04.1": [],
+  "php-nikic-fast-route|1.3.0-3": [
+    {
+      "id": "CVE-2005-1921",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2005-4593",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-2256",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2006-3361",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2006-4215",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2006-5546",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2006-5831",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-6295",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2006-6356",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2006-6357",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-5157",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2008-3087",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2021-30124",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2021-43258",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-28859",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2024-3551",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2024-35650",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2024-37089",
+      "score": 9.0
+    },
+    {
+      "id": "CVE-2024-37092",
+      "score": 8.5
+    },
+    {
+      "id": "CVE-2024-52501",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-39592",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-4803",
+      "score": 7.2
+    }
+  ],
+  "php-psr-container|2.0.2-1": [
+    {
+      "id": "CVE-2002-0249",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2003-1181",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2003-1178",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2003-1179",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2003-1180",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2003-1244",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2004-0132",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-2134",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2006-2667",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-4367",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-4450",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2006-4758",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2006-5209",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5673",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2006-5674",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-6508",
+      "score": 6.0
+    },
+    {
+      "id": "CVE-2006-6567",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2006-6568",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2006-6839",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2006-6840",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2006-6841",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2006-2219",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2006-2220",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2007-1555",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-4653",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2008-0471",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2008-1988",
+      "score": 9.0
+    },
+    {
+      "id": "CVE-2008-3767",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2008-5167",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2008-7143",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2011-4280",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2013-1348",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2013-1397",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2014-2682",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-4726",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-6968",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2018-6860",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2018-6863",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2018-6859",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2019-7552",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2021-23227",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-49283",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-33628",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-6460",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-32146",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-32155",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-32627",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-32309",
+      "score": 8.1
+    }
+  ],
+  "php-xmlrpc|3:1.0.0~rc3-2": [],
+  "php8.1|8.1.2-1ubuntu2.21": [],
+  "rpm|4.17.0+dfsg1-4build1": [
+    {
+      "id": "CVE-2021-3421",
+      "score": 5.5
+    }
+  ],
+  "g++|4:11.2.0-1ubuntu1": [],
+  "g++|4:12.2.0-3": [],
+  "g++-11|11.4.0-1ubuntu1~22.04": [
+    {
+      "id": "CVE-2014-2928",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2014-3959",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2013-7408",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2014-4023",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2014-6032",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2014-8730",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2015-6546",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2015-7394",
+      "score": 9.0
+    },
+    {
+      "id": "CVE-2015-3628",
+      "score": 9.0
+    },
+    {
+      "id": "CVE-2015-7393",
+      "score": 6.9
+    },
+    {
+      "id": "CVE-2015-7414",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2015-8021",
+      "score": 4.0
+    },
+    {
+      "id": "CVE-2016-5736",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2016-5022",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2016-6876",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2016-7469",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-10084",
+      "score": 4.0
+    },
+    {
+      "id": "CVE-2017-6161",
+      "score": 2.9
+    },
+    {
+      "id": "CVE-2017-6162",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2020-8299",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2021-43051",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2023-31488",
+      "score": 9.8
+    }
+  ],
+  "gcc-13|13.3.0-6ubuntu2~24.04": [],
+  "ibverbs-providers|50.0-2ubuntu0.2": [],
+  "openconnect|9.12-1build5": [],
+  "sddm|0.20.0-2ubuntu4.2": [],
+  "openoffice|4.1.15-2": [],
+  "npm|8.5.1~ds-1": [],
+  "xxd|2:8.2.3995-1ubuntu2.16": [],
+  "libref_array|0.1.5-39.el8": [],
+  "zulu17-jdk-headless|17.0.14-1": [],
+  "rpm|4.14.3-24.el8_6": [],
+  "firewalld|1.1.1-1ubuntu1": [],
+  "udisks2|2.9.0-9.el8": [],
+  "tilix-common|1.9.4-2build1": [],
+  "etckeeper|1.18.16-1": [],
+  "php7.4-mbstring|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-gnupg|1.5.1-6+ubuntu22.04.1+deb.sury.org+1": [],
+  "wpasupplicant|2:2.10-6ubuntu2.2": [],
+  "cmake|3.22.1-1ubuntu1.22.04.2": [],
+  "php8.1-readline|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-imagick|3.7.0-9+ubuntu22.04.1+deb.sury.org+1": [],
+  "openssh-client|1:8.9p1-3ubuntu0.10": [],
+  "cmake-data|3.22.1-1ubuntu1.22.04.2": [],
+  "tilix|1.9.4-2build1": [],
+  "php7.4-json|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.1-mbstring|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "ibverbs-providers|39.0-1": [],
+  "cloud-init|24.4.1-0ubuntu0~22.04.2": [],
+  "openjdk-8-jre-headless|8u442-b06~us1-0ubuntu1~22.04": [
+    {
+      "id": "CVE-2012-2739",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2014-1876",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-4447",
+      "score": -1.0
+    }
+  ],
+  "php8.1-cli|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "ghostscript|9.55.0~dfsg1-0ubuntu5.11": [],
+  "php8.3-mysql|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "lua-cjson|2.1.0+dfsg-2.1": [
+    {
+      "id": "CVE-2020-15890",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2020-24372",
+      "score": 7.5
+    }
+  ],
+  "php7.4-redis|6.1.0-2+ubuntu22.04.1+deb.sury.org+1": [],
+  "gitlab-runner|16.11.1-1": [
+    {
+      "id": "CVE-2024-1347",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2024-2434",
+      "score": 8.5
+    },
+    {
+      "id": "CVE-2024-2829",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-4006",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2024-4024",
+      "score": 7.3
+    }
+  ],
+  "clamav-base|0.103.12+dfsg-0ubuntu0.22.04.1": [],
+  "openssh-server|1:8.9p1-3ubuntu0.13": [],
+  "python3.10-venv|3.10.12-1~22.04.10": [],
+  "zabbix-agent2|1:7.2.1-1+ubuntu22.04": [],
+  "supervisor|4.2.1-1ubuntu1": [],
+  "fio|3.28-1": [],
+  "php7.4-zip|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "redis-server|5:6.0.16-1ubuntu1": [],
+  "openssh-sftp-server|1:8.9p1-3ubuntu0.13": [],
+  "php8.1-xml|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "freeradius-common|3.0.26~dfsg~git20220223.1.00ed0241fa-0ubuntu3.4": [],
+  "postgresql-contrib|14+238": [
+    {
+      "id": "CVE-2006-6469",
+      "score": 5.8
+    },
+    {
+      "id": "CVE-2016-1255",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2019-19475",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-0985",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2024-4317",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-7348",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-10976",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10977",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-10978",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10979",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-1094",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-4207",
+      "score": 5.9
+    }
+  ],
+  "nginx|1.18.0-6ubuntu14.6": [],
+  "uwsgi|2.0.20-4": [],
+  "mysql-common|5.8+1.0.8": [
+    {
+      "id": "CVE-2019-10748",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2021-39200",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2021-39201",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2021-39202",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2021-39203",
+      "score": 6.8
+    }
+  ],
+  "nmap|7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1": [],
+  "lua-lpeg|1.0.2-1": [],
+  "postgis|3.4.0+dfsg-1.pgdg20.04+1": [],
+  "pgadmin4-server|7.8": [],
+  "postgresql-11|11.21-1.pgdg20.04+1": [],
+  "postgresql-15|15.4-2.pgdg20.04+1": [],
+  "postgis-doc|3.4.0+dfsg-1.pgdg20.04+1": [],
+  "openjdk-21-jre|21.0.6+7-1~22.04.1": [],
+  "nodejs|18.20.6-1nodesource1": [],
+  "php8.3-redis|6.0.2-4+ubuntu22.04.1+deb.sury.org+1": [],
+  "postgresql-common|255.pgdg20.04+1": [],
+  "openjdk-21-jdk-headless|21.0.6+7-1~22.04.1": [],
+  "postgresql-postgis|3.4.0+dfsg-1.pgdg20.04+1": [],
+  "python3.10|3.10.12-1~22.04.10": [],
+  "imagemagick-6.q16|8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5": [],
+  "python2|2.7.18-3": [],
+  "php8.1-opcache|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "apache2|2.4.63-1+ubuntu22.04.1+deb.sury.org+2": [],
+  "php8.1-imap|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "wazuh-agent|4.9.2-1": [],
+  "ssh|1:8.9p1-3ubuntu0.10": [],
+  "socat|1.7.4.1-3ubuntu4": [],
+  "w3m|0.5.3+git20210102-6ubuntu0.2": [
+    {
+      "id": "CVE-2016-9422",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9423",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9424",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9425",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9426",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9428",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2016-9429",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9430",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9431",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9432",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9433",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9434",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9437",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9438",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9439",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9440",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9441",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9442",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9443",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9622",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9623",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9624",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9625",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9626",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9627",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9628",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9629",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9630",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9631",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9632",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9633",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9435",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9436",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2018-6196",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2018-6197",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2018-6198",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2022-38223",
+      "score": 7.8
+    }
+  ],
+  "openssl|3.0.2-0ubuntu1.18": [
+    {
+      "id": "CVE-2014-4993",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2019-17185",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2022-0778",
+      "score": 7.5
+    }
+  ],
+  "postgresql-client-17|17.2-1.pgdg22.04+1": [],
+  "bareos-common|24.0.2~pre62.508b4e4a7-53": [],
+  "gnupg-l10n|2.2.27-3ubuntu2.3": [],
+  "postgresql-doc|14+238": [
+    {
+      "id": "CVE-2006-6469",
+      "score": 5.8
+    },
+    {
+      "id": "CVE-2016-1255",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2019-19475",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-0985",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2024-4317",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-7348",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-10976",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10977",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-10978",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10979",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-1094",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-4207",
+      "score": 5.9
+    }
+  ],
+  "postgresql-common|267.pgdg22.04+1": [],
+  "php7.4-curl|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "mariadb-server|1:10.6.22-0ubuntu0.22.04.1": [],
+  "php7.4|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-xml|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "clamav|0.103.12+dfsg-0ubuntu0.22.04.1": [],
+  "cortex|3.1.8-1": [],
+  "freetds-common|1.3.6-1": [],
+  "libreoffice|1:7.3.7-0ubuntu0.22.04.10": [],
+  "netdata-repo|5-1": [],
+  "lua-bitop|1.0.2-5": [],
+  "snap|2013-11-29-11": [
+    {
+      "id": "CVE-2013-4183",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2013-7048",
+      "score": 3.3
+    }
+  ],
+  "firebird3.0-common-doc|3.0.8.33535.ds4-1ubuntu2": [],
+  "php8.1-apcu|5.1.24-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "erlang-base|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "erlang-eldap|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "needrestart|3.5-5ubuntu2.4": [
+    {
+      "id": "CVE-2022-30688",
+      "score": 7.8
+    }
+  ],
+  "lp-solve|5.5.2.5-2build2": [],
+  "apache2-doc|2.4.52-1ubuntu4.14": [],
+  "gitlab-runner|16.9.0-1": [],
+  "erlang-os-mon|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "erlang-snmp|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "erlang-ssl|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "mongodb-mongosh|2.4.2": [],
+  "mongodb-org-database|7.0.18": [],
+  "iio-sensor-proxy|3.3-0ubuntu6": [],
+  "mongodb-org-server|7.0.18": [],
+  "gitlab-ce|16.11.10-ce.0": [],
+  "git-man|1:2.34.1-1ubuntu1.10": [],
+  "gitlab-runner|16.8.0": [],
+  "bareos-dbg|23.0.4~pre219.fcc1a62ef-118": [
+    {
+      "id": "CVE-2024-45044",
+      "score": 8.8
+    }
+  ],
+  "openssh-client|1:8.9p1-3ubuntu0.6": [],
+  "docker-ce|5:25.0.4-1~ubuntu.22.04~jammy": [],
+  "openjdk-21-jdk|21.0.6+7-1~22.04.1": [],
+  "bareos-common|23.0.4~pre219.fcc1a62ef-118": [
+    {
+      "id": "CVE-2024-45044",
+      "score": 8.8
+    }
+  ],
+  "gcc-mingw-w64-i686|10.3.0-14ubuntu1+24.3": [],
+  "gcc-mingw-w64-i686-posix-runtime|10.3.0-14ubuntu1+24.3": [],
+  "php8.2-bz2|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.2|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.2-common|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "llvm-14-dev|1:14.0.0-1ubuntu1.1": [],
+  "php8.2-opcache|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.2-ldap|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.2-gd|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "heimdal-multidev|7.7.0+dfsg-3ubuntu1": [],
+  "php8.2-readline|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "open-iscsi|2.1.5-1ubuntu1.1": [
+    {
+      "id": "CVE-2004-2329",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2007-0846",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-0847",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4372",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4373",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4374",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4375",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2012-2582",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2019-11269",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-13867",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2021-32682",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2022-23612",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2023-51662",
+      "score": 6.0
+    },
+    {
+      "id": "CVE-2025-31843",
+      "score": 4.3
+    }
+  ],
+  "openssh-server|1:8.9p1-3ubuntu0.10": [],
+  "gcc-mingw-w64-x86-64-posix|10.3.0-14ubuntu1+24.3": [],
+  "nodejs|20.19.0-1nodesource1": [],
+  "gcc-mingw-w64-i686-win32-runtime|10.3.0-14ubuntu1+24.3": [],
+  "erlang-ftp|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "python3.10|3.10.12-1~22.04.7": [],
+  "postgresql-client-common|255.pgdg20.04+1": [],
+  "postgresql-11-postgis-3|3.3.4+dfsg-1.pgdg20.04+1": [],
+  "imagemagick|8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5": [],
+  "pgadmin4-web|7.8": [],
+  "docker-ce|5:28.1.1-1~ubuntu.22.04~jammy": [],
+  "nginx-common|1.18.0-6ubuntu14.6": [],
+  "erlang-inets|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "librevenge-0.0-0|0.0.4-6ubuntu7": [],
+  "gcc-mingw-w64-i686-win32|10.3.0-14ubuntu1+24.3": [],
+  "postgresql-15-postgis-3|3.4.0+dfsg-1.pgdg20.04+1": [],
+  "gcc-mingw-w64-x86-64-win32|10.3.0-14ubuntu1+24.3": [],
+  "erlang-tftp|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "erlang-mnesia|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "php8.3-mbstring|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "jp2a|1.1.1-1": [],
+  "toilet|0.3-1.4": [],
+  "postgresql-11-postgis-3-scripts|3.3.4+dfsg-1.pgdg20.04+1": [],
+  "postgresql-doc-14|14.18-0ubuntu0.22.04.1": [
+    {
+      "id": "CVE-2025-4207",
+      "score": 5.9
+    }
+  ],
+  "postgresql-postgis-scripts|3.4.0+dfsg-1.pgdg20.04+1": [],
+  "nmap-common|7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1": [],
+  "erlang-asn1|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "mingw-w64-common|8.0.0-1": [],
+  "php8.2-mysql|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "xxd|2:8.2.3995-1ubuntu2.21": [],
+  "busybox-initramfs|1:1.30.1-7ubuntu3.1": [],
+  "elasticsearch|7.17.28": [],
+  "git|1:2.39.5-0+deb12u2": [],
+  "erlang-xmerl|1:24.2.1+dfsg-1ubuntu0.2": [],
+  "postgresql-client|14+238": [
+    {
+      "id": "CVE-2006-6469",
+      "score": 5.8
+    },
+    {
+      "id": "CVE-2016-1255",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2019-19475",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-0985",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2024-4317",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-7348",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-10976",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10977",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-10978",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10979",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-1094",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-4207",
+      "score": 5.9
+    }
+  ],
+  "openssh-sftp-server|1:8.9p1-3ubuntu0.6": [],
+  "w3m-img|0.5.3+git20210102-6ubuntu0.2": [
+    {
+      "id": "CVE-2016-9422",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9423",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9424",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9425",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9426",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9428",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2016-9429",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-9430",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9431",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9432",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9433",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9434",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9437",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9438",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9439",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9440",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9441",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9442",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9443",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9622",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9623",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9624",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9625",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9626",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9627",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9628",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9629",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9630",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9631",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9632",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9633",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9435",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2016-9436",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2018-6196",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2018-6197",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2018-6198",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2022-38223",
+      "score": 7.8
+    }
+  ],
+  "openjdk-11-jdk|11.0.27+6~us1-0ubuntu1~22.04": [],
+  "mlock|8:2007f~dfsg-7build1": [],
+  "zabbix-agent2|1:7.2.5-1+ubuntu22.04": [],
+  "fluent-bit|4.0.2": [],
+  "vim|2:8.2.3995-1ubuntu2.15": [],
+  "gcc-mingw-w64-x86-64-posix-runtime|10.3.0-14ubuntu1+24.3": [],
+  "xxd|2:8.2.3995-1ubuntu2.15": [],
+  "freeradius-ldap|3.0.26~dfsg~git20220223.1.00ed0241fa-0ubuntu3.4": [],
+  "datagerry|2.2.0": [
+    {
+      "id": "CVE-2024-50967",
+      "score": 6.5
+    }
+  ],
+  "ioping|1.2-1": [],
+  "wireless-regdb|2022.06.06-0ubuntu1~22.04.1": [],
+  "clamav-daemon|0.103.12+dfsg-0ubuntu0.22.04.1": [],
+  "git|1:2.34.1-1ubuntu1.10": [],
+  "php7.4-opcache|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "librhash0|1.4.2-1ubuntu1": [],
+  "llvm-14|1:14.0.0-1ubuntu1.1": [],
+  "php8.1-bcmath|8.1.32-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "freeradius|3.0.26~dfsg~git20220223.1.00ed0241fa-0ubuntu3.4": [],
+  "gcc-mingw-w64-x86-64-win32-runtime|10.3.0-14ubuntu1+24.3": [],
+  "gcc-mingw-w64-base|10.3.0-14ubuntu1+24.3": [],
+  "cloud-init|23.4.4-0ubuntu0~22.04.1": [],
+  "php8.3-gd|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php-common|2:95+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.3-opcache|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "postgresql-client-common|267.pgdg22.04+1": [],
+  "bison|2:3.8.2+dfsg-1build1": [],
+  "php8.2-curl|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-intl|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "openjdk-21-jre-headless|21.0.6+7-1~22.04.1": [],
+  "php8.2-mbstring|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.3-intl|8.3.13-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "openssh-sftp-server|1:8.9p1-3ubuntu0.10": [],
+  "postgresql-17|17.2-1.pgdg22.04+1": [],
+  "mongodb-org-mongos|7.0.18": [],
+  "php8.2-cli|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "php8.3-igbinary|3.2.16-3+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-bcmath|1:7.4.33-18+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-igbinary|3.2.16-3+ubuntu22.04.1+deb.sury.org+1": [],
+  "mingw-w64-i686-dev|8.0.0-1": [],
+  "gpg|2.2.27-3ubuntu2.3": [],
+  "php8.2-zip|8.2.28-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "mosquitto|2.0.11-1ubuntu1.2": [
+    {
+      "id": "CVE-2021-34434",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2021-41039",
+      "score": 7.5
+    }
+  ],
+  "llvm-14-runtime|1:14.0.0-1ubuntu1.1": [],
+  "texlive-base|2021.20220204-1": [],
+  "nettle-dev|3.7.3-1build2": [],
+  "preview-latex-style|12.2-1ubuntu1": [],
+  "sshpass|1.09-1": [],
+  "openssh-server|1:8.9p1-3ubuntu0.6": [],
+  "openjdk-8-jre-headless|8u452-ga~us1-0ubuntu1~22.04": [
+    {
+      "id": "CVE-2012-2739",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2014-1876",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-4447",
+      "score": -1.0
+    }
+  ],
+  "postgresql-server-dev-14|14.18-0ubuntu0.22.04.1": [
+    {
+      "id": "CVE-2025-4207",
+      "score": 5.9
+    }
+  ],
+  "xsltproc|1.1.34-4ubuntu0.22.04.3": [],
+  "rpm-common|4.17.0+dfsg1-4build1": [
+    {
+      "id": "CVE-2021-3421",
+      "score": 5.5
+    }
+  ],
+  "snmp|5.9.1+dfsg-1ubuntu2.7": [],
+  "gcc-12|12.3.0-1ubuntu1~22.04": [],
+  "gparted|1.3.1-1ubuntu1": [],
+  "gvfs-daemons|1.48.2-0ubuntu1": [],
+  "librest-0.7-0|0.8.1-1.1build2": [],
+  "mutter-common|42.9-0ubuntu9": [],
+  "spice-vdagent|0.22.1-1": [],
+  "orca|42.0-1ubuntu2": [],
+  "gvfs|1.48.2-0ubuntu1": [],
+  "rygel|0.40.3-1ubuntu2": [],
+  "p11-kit-modules|0.24.0-6build1": [],
+  "tracker-extract|3.3.3-0ubuntu0.20.04.3": [],
+  "power-profiles-daemon|0.10.1-3": [],
+  "sgml-data|2.0.11+nmu1": [],
+  "virtualbox|6.1.50-dfsg-1~ubuntu1.22.04.3": [],
+  "python3.10|3.10.12-1~22.04.8": [],
+  "sgml-base|1.30": [],
+  "vim|2:8.2.3995-1ubuntu2.22": [],
+  "x11-apps|7.7+8build2": [],
+  "whoopsie-preferences|23": [],
+  "xdg-desktop-portal|1.14.4-1ubuntu2~22.04.2": [],
+  "xbitmaps|1.1.1-2.1ubuntu1": [],
+  "xserver-xorg-input-all|1:7.7+23ubuntu2": [],
+  "xinit|1.4.1-0ubuntu4": [],
+  "wpasupplicant|2:2.10-6ubuntu2.1": [],
+  "whoopsie|0.2.77": [],
+  "xdg-desktop-portal-gtk|1.14.0-1build1": [],
+  "openprinting-ppds|20220223-0ubuntu1": [],
+  "tracker-miner-fs|3.3.3-0ubuntu0.20.04.3": [],
+  "virtualbox-ext-pack|6.1.50-1~ubuntu1.22.04.1": [],
+  "xserver-xorg-input-libinput|1.2.1-1": [],
+  "xserver-xorg-legacy|2:21.1.4-2ubuntu1.7~22.04.12": [],
+  "xinput|1.6.3-1build2": [],
+  "texlive-latex-extra|2021.20220204-1": [],
+  "smbclient|2:4.15.13+dfsg-0ubuntu1.6": [],
+  "texlive-pictures|2021.20220204-1": [],
+  "uuid-dev|2.37.2-4ubuntu3.4": [],
+  "openssh-sftp-server|1:9.2p1-2+deb12u6": [],
+  "x11-common|1:7.7+23": [],
+  "espeak-ng-data|1.50+dfsg-10ubuntu0.1": [],
+  "bubblewrap|0.6.1-1ubuntu0.1": [],
+  "php-symfony-dependency-injection|5.4.4+dfsg-1ubuntu8": [],
+  "firefox|135.0-2": [
+    {
+      "id": "CVE-2025-1414",
+      "score": 6.5
+    }
+  ],
+  "openjdk-8-jre|8u442-b06~us1-0ubuntu1~22.04": [],
+  "xxd|2:9.0.1378-2+deb12u2": [],
+  "php-phpseclib|2.0.36-1": [],
+  "php-common|2:92ubuntu1": [],
+  "ssh|1:9.2p1-2+deb12u6": [],
+  "xauth|1:1.1.2-1": [],
+  "openssl|3.0.16-1~deb12u1": [],
+  "php-symfony-polyfill-php81|1.24.0-1ubuntu2": [],
+  "fio|3.33-3": [],
+  "php-mbstring|2:8.1+92ubuntu1": [],
+  "php-symfony-cache|5.4.4+dfsg-1ubuntu8": [],
+  "php-curl|2:8.1+92ubuntu1": [],
+  "ghostscript-x|9.55.0~dfsg1-0ubuntu5.10": [],
+  "php-symfony-deprecation-contracts|2.4.0-1ubuntu2": [],
+  "php-symfony-service-contracts|2.4.0-1ubuntu2": [],
+  "php-gd|2:8.1+92ubuntu1": [],
+  "php-symfony-polyfill-php80|1.24.0-1ubuntu2": [],
+  "xserver-xephyr|2:21.1.4-2ubuntu1.7~22.04.12": [],
+  "gcc-12-base|12.2.0-14+deb12u1": [],
+  "gvfs-common|1.48.2-0ubuntu1": [],
+  "xserver-common|2:21.1.4-2ubuntu1.7~22.04.12": [],
+  "php-twig|3.3.8-2ubuntu4": [],
+  "php-symfony-cache-contracts|2.4.0-1ubuntu2": [],
+  "bunkerweb|1.6.0": [],
+  "xrdp|0.9.17-2ubuntu2": [],
+  "postgresql-client-common|248": [],
+  "mariadb-common|1:10.11.11-0+deb12u1": [],
+  "postgresql-client-15|15.12-0+deb12u2": [],
+  "xxd|2:8.2.3995-1ubuntu2.22": [],
+  "debian gnu/linux 12 (bookworm)|12.11": [],
+  "xorgxrdp|1:0.2.17-1build1": [],
+  "zenity|3.42.1-0ubuntu1": [],
+  "mariadb-client|1:10.11.11-0+deb12u1": [],
+  "geoip-database|20230203-1": [],
+  "zabbix-agent2|1:7.0.10-1+debian12": [],
+  "vim|2:9.0.1378-2+deb12u2": [],
+  "openssh-client|1:9.2p1-2+deb12u6": [],
+  "certbot|2.1.0-4": [],
+  "ioping|1.3-1": [],
+  "tracker|3.3.0-1": [],
+  "php8.1-cli|8.1.2-1ubuntu2.21": [],
+  "php8.1-bz2|8.1.2-1ubuntu2.21": [],
+  "php8.1-curl|8.1.2-1ubuntu2.21": [],
+  "php8.1-mysql|8.1.2-1ubuntu2.21": [],
+  "nodejs|22.15.1-1nodesource1": [],
+  "php-zip|2:8.1+92ubuntu1": [],
+  "php-bz2|2:8.1+92ubuntu1": [],
+  "zabbix-agent2|1:7.0.6-1+ubuntu22.04": [],
+  "php-mysql|2:8.1+92ubuntu1": [],
+  "php8.1-soap|8.1.2-1ubuntu2.21": [],
+  "php-mariadb-mysql-kbs|1.2.12-1": [
+    {
+      "id": "CVE-2011-3787",
+      "score": 5.0
+    }
+  ],
+  "php8.1-opcache|8.1.2-1ubuntu2.21": [],
+  "php-soap|2:8.1+92ubuntu1": [],
+  "php8.1-xmlrpc|3:1.0.0~rc3-2": [],
+  "postgresql-common-dev|274.pgdg22.04+1": [],
+  "mariadb-client|1:10.6.18-0ubuntu0.22.04.1": [],
+  "mariadb-common|1:10.6.18-0ubuntu0.22.04.1": [],
+  "postgresql-common|274.pgdg22.04+1": [],
+  "cloud-init|24.2-0ubuntu1~22.04.1": [],
+  "apache2-doc|2.4.52-1ubuntu4.12": [],
+  "mariadb-client-10.6|1:10.6.18-0ubuntu0.22.04.1": [],
+  "nginx|1.22.1-9+deb12u1": [
+    {
+      "id": "CVE-2022-41741",
+      "score": 7.0
+    },
+    {
+      "id": "CVE-2022-41742",
+      "score": 7.1
+    }
+  ],
+  "opencv-data|4.5.4+dfsg-9ubuntu4": [],
+  "mariadb-server-10.6|1:10.6.18-0ubuntu0.22.04.1": [],
+  "neovim|0.7.2-7": [],
+  "mariadb-server|1:10.6.18-0ubuntu0.22.04.1": [],
+  "php7.4-json|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "nginx-common|1.22.1-9+deb12u1": [
+    {
+      "id": "CVE-2022-41741",
+      "score": 7.0
+    },
+    {
+      "id": "CVE-2022-41742",
+      "score": 7.1
+    }
+  ],
+  "postgresql-client|15+248": [
+    {
+      "id": "CVE-2016-1255",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2024-0985",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2024-4317",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-7348",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-10976",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10977",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-10978",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2024-10979",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-1094",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-4207",
+      "score": 5.9
+    }
+  ],
+  "php7.4-cli|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-curl|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-readline|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-dev|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "tesseract-ocr|4.1.1-2.1build1": [],
+  "php7.4-igbinary|3.2.16-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "zabbix-agent2|1:7.0.3-1+ubuntu22.04": [],
+  "php7.4-mbstring|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-mysql|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-opcache|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "cpp|4:13.2.0-7ubuntu1": [],
+  "php|2:8.1+92ubuntu1": [],
+  "docker-ce|5:28.0.3-1~ubuntu.20.04~focal": [],
+  "php-psr-cache|3.0.0-1": [
+    {
+      "id": "CVE-2001-1011",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2006-5413",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-7120",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2007-2594",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-2939",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-4312",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-4313",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2008-4775",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2009-2378",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-5053",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2010-4725",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2011-3773",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2016-5674",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2016-5675",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2018-13021",
+      "score": 9.0
+    },
+    {
+      "id": "CVE-2018-1000811",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2015-9340",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2021-3007",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2021-24217",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2023-32110",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2025-2882",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-47778",
+      "score": -1.0
+    }
+  ],
+  "python2.7|2.7.18-13ubuntu1.2": [],
+  "dhcpcd-base|1:10.0.6-1ubuntu3.1": [],
+  "wazuh-agent|4.9.0-1": [],
+  "gcc-13-base|13.3.0-6ubuntu2~24.04": [],
+  "gcc|4:13.2.0-7ubuntu1": [],
+  "g++-13|13.3.0-6ubuntu2~24.04": [],
+  "gcc-14-base|14.2.0-4ubuntu2~24.04": [],
+  "git-man|1:2.43.0-1ubuntu7.2": [],
+  "gnupg-agent|2.4.4-2ubuntu17.2": [],
+  "php-phpmyadmin-sql-parser|5.4.1-2": [
+    {
+      "id": "CVE-2013-1635",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2013-1643",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2013-3735",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2013-2110",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2013-4635",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2013-4636",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2013-4248",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2013-1824",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2020-10806",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2020-16629",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2024-2203",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2024-2210",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2024-31210",
+      "score": 7.6
+    }
+  ],
+  "gnupg|2.4.4-2ubuntu17.2": [],
+  "gzip|1.12-1ubuntu3": [],
+  "gpg|2.4.4-2ubuntu17.2": [],
+  "gnupg-l10n|2.4.4-2ubuntu17.2": [],
+  "git|1:2.43.0-1ubuntu7.2": [],
+  "php7.4-common|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "ibverbs-providers|50.0-2build2": [],
+  "libref-array1t64|0.6.2-2.1build1": [],
+  "neovim|0.9.5-6ubuntu2": [],
+  "man-db|2.12.0-4build2": [],
+  "postfix|3.8.6-1build2": [],
+  "python3.12-dev|3.12.3-1ubuntu0.7": [],
+  "openssl|3.0.13-0ubuntu3.5": [],
+  "sgml-base|1.31": [],
+  "ssh|1:9.6p1-3ubuntu13.11": [],
+  "sysstat|12.6.1-2": [],
+  "strace|6.8-0ubuntu2": [],
+  "unzip|6.0-28ubuntu4.1": [],
+  "openssh-server|1:9.6p1-3ubuntu13.11": [],
+  "ubuntu 24.04.2 lts|24.04.2 LTS (Noble Numbat)": [],
+  "php-symfony-var-exporter|5.4.4+dfsg-1ubuntu8": [
+    {
+      "id": "CVE-2012-2386",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2012-3450",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2015-2783",
+      "score": 5.8
+    },
+    {
+      "id": "CVE-2015-3307",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-3329",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-3330",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-4021",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-4022",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-4024",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-4025",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-4026",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-5590",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-6831",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2015-6832",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-6833",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-6836",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2016-3171",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-3411",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2015-3412",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-4598",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-4599",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-4600",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-4602",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-4603",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-4604",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-4605",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-4642",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-4643",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-4644",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-5589",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2015-6834",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-6835",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-6837",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-6838",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-8835",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-8838",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2015-8873",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2016-3185",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2014-9767",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2015-8867",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-8876",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2010-4657",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-50340",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2024-50342",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-50343",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-50345",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2024-51736",
+      "score": 0.0
+    },
+    {
+      "id": "CVE-2024-51996",
+      "score": 7.5
+    }
+  ],
+  "xclip|0.13-3": [],
+  "php7.4-intl|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "xkb-data|2.41-2ubuntu1.1": [],
+  "lua-luv|1.48.0-2-2build1": [],
+  "xxd|2:9.1.0016-1ubuntu7.8": [],
+  "zlib1g|1:1.3.dfsg-3.1ubuntu2.1": [],
+  "python-babel-localedata|2.10.3-3build1": [],
+  "zlib1g-dev|1:1.3.dfsg-3.1ubuntu2.1": [],
+  "python3.12|3.12.3-1ubuntu0.7": [],
+  "openssh-client|1:9.6p1-3ubuntu13.11": [],
+  "mc-data|3:4.8.30-1ubuntu0.1": [],
+  "tomcat9-common|9.0.58-1ubuntu0.1": [],
+  "postgresql-13|13.20-1.pgdg22.04+1": [],
+  "mkcert|1.4.4-1+b6": [],
+  "postgresql-client-common|274.pgdg120+1": [],
+  "openproject|14.6.3-1730194473.d9ae0312.jammy": [],
+  "redis-server|5:7.0.15-1~deb12u3": [],
+  "glpi agent 1.11|1.11": [],
+  "appup.intelgraphicsexperience|1.100.5688.0": [],
+  "memcached|1.6.14-1ubuntu0.1": [],
+  "7-zip 23.01 (x64)|23.01": [],
+  "bit4id - universal mw 1.4.10.647|1.4.10.647": [],
+  "clipchamp.clipchamp|4.2.10220.0": [],
+  "cisco packet tracer 8.2.2 64bit|8.2.2.400": [],
+  "internet explorer|11.1882.26100.0": [],
+  "docker-ce|5:28.0.4-1~debian.12~bookworm": [],
+  "xauth|1:1.1.2-1build1": [],
+  "onedrive|25080.427.3.0": [],
+  "onedrive|24171.825.2.0": [],
+  "cracklib-runtime|2.9.6-5.1build2": [],
+  "php-phpmyadmin-shapefile|2.1-5": [
+    {
+      "id": "CVE-2001-0648",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2002-1931",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2002-1991",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2002-2019",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2003-0394",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2003-0536",
+      "score": 3.6
+    },
+    {
+      "id": "CVE-2003-1190",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2003-1436",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2004-1829",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2004-1830",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2004-1528",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2004-1529",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2004-1530",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2005-2782",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2005-2951",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2005-3153",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2005-3519",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2005-3555",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2005-3556",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2005-3557",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2005-3571",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2006-0502",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-0648",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2006-0909",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2006-1154",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-1219",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2006-1363",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-1746",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2006-1825",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2006-2059",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2006-2060",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2006-2270",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-2498",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2006-2527",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-2528",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2006-2692",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2006-2694",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-2768",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2006-2849",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-2859",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-3177",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-3984",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-3584",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-4285",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-4422",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-4456",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-4457",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-4498",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-4635",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2006-4671",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2006-4995",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5085",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5093",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5203",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2006-5232",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5249",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5253",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5294",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2006-5321",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2006-5322",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5411",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5432",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2006-5524",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2006-5548",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5634",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2006-5637",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5672",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-5841",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-6175",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-6453",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2006-6743",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2006-6744",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2007-0301",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-0498",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-0580",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-0764",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2007-0809",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-0900",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-1025",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-7064",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2006-7107",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2006-7130",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-1325",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2007-1359",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-1539",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2007-1622",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2007-2087",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-2245",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2007-2969",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-3194",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2007-4306",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2007-4905",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-5313",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2007-5386",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2007-5589",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2007-5976",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2007-5977",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2007-6100",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2008-0743",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2008-0934",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2008-1149",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2008-1492",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2008-1567",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2008-1847",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2008-1924",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2008-2960",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2008-2981",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2008-3197",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2008-3456",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2008-3457",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2008-3737",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2008-4096",
+      "score": 8.5
+    },
+    {
+      "id": "CVE-2008-4181",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2008-4206",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2008-4207",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2008-4326",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2008-4775",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2008-5621",
+      "score": 6.0
+    },
+    {
+      "id": "CVE-2008-5887",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2009-0422",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-0463",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2009-1150",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2009-1151",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2008-6546",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2008-6729",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2009-1822",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2008-7198",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2009-3202",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2009-3696",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2009-3697",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4050",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2009-4094",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4221",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2009-4222",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2008-7251",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2008-7252",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2009-4605",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2010-1055",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2009-4880",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2009-4884",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2009-4885",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2009-4886",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2010-2315",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2010-3055",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2010-3056",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2010-4329",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2011-0519",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2011-0986",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2011-0987",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2011-0748",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2011-1682",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2010-4810",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2010-4836",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2011-3771",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2011-3774",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2012-2902",
+      "score": 6.0
+    },
+    {
+      "id": "CVE-2012-3846",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2012-0796",
+      "score": 4.0
+    },
+    {
+      "id": "CVE-2012-3952",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2012-3953",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2012-4246",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2012-4247",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2012-4036",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2012-2740",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2012-2741",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2012-5228",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2012-6112",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2012-6552",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2013-3651",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2014-1903",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2014-2922",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2013-1397",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2014-5317",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2014-7235",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2014-2682",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2014-9709",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2012-4902",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-5660",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2015-5665",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2015-7816",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-7773",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2016-3153",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2016-3154",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2013-7456",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2016-5726",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2016-5727",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2017-8912",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2017-11167",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2015-4180",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2015-4181",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2017-1000453",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2018-6195",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2018-7448",
+      "score": 8.5
+    },
+    {
+      "id": "CVE-2018-16388",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2019-5884",
+      "score": 5.9
+    },
+    {
+      "id": "CVE-2019-6257",
+      "score": 7.7
+    },
+    {
+      "id": "CVE-2019-7413",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2019-9194",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2018-20632",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2018-20633",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2018-20634",
+      "score": 4.0
+    },
+    {
+      "id": "CVE-2018-20635",
+      "score": 4.0
+    },
+    {
+      "id": "CVE-2019-7429",
+      "score": 4.0
+    },
+    {
+      "id": "CVE-2019-9864",
+      "score": 4.0
+    },
+    {
+      "id": "CVE-2016-10753",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2018-11773",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2019-7871",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2019-7932",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2019-14252",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2019-14253",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2019-17046",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2019-11021",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2018-14553",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2020-12479",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2020-15227",
+      "score": 8.7
+    },
+    {
+      "id": "CVE-2020-25270",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2020-25952",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2020-24723",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2020-26766",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2021-3007",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2021-23394",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2021-32682",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2021-32708",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2021-36800",
+      "score": 8.7
+    },
+    {
+      "id": "CVE-2021-41116",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2022-21648",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2022-0440",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2021-46433",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2022-26982",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2021-43421",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2022-24688",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2022-31109",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2022-37730",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2022-39261",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2022-3359",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2022-23499",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2022-4063",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2022-4395",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2022-46836",
+      "score": 9.1
+    },
+    {
+      "id": "CVE-2023-26267",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2023-2551",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2023-29657",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2020-36726",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2023-35840",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2020-21861",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2023-38500",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2023-4314",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2023-4300",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2023-4290",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2023-47125",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2022-40700",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2024-24752",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-24753",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2024-24754",
+      "score": 3.7
+    },
+    {
+      "id": "CVE-2024-0844",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2024-1685",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-29186",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2024-1792",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-1813",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2023-7064",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-4596",
+      "score": 3.7
+    },
+    {
+      "id": "CVE-2023-37888",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2024-5357",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2024-5358",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2024-5359",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2024-5360",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2024-5361",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2024-5348",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-38704",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-38716",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-5450",
+      "score": 9.1
+    },
+    {
+      "id": "CVE-2024-7351",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2024-45046",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-7950",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2024-45411",
+      "score": 8.5
+    },
+    {
+      "id": "CVE-2024-7863",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2024-45292",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-45293",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-45060",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2024-45290",
+      "score": 7.7
+    },
+    {
+      "id": "CVE-2024-45291",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2024-9507",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2024-51582",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-47873",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-48917",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-52449",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2024-53255",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-12209",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2024-12266",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-56408",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-56365",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-56366",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-56409",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-56410",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-56411",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-56412",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-23948",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-23210",
+      "score": -1.0
+    },
+    {
+      "id": "CVE-2025-1578",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-1855",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-25130",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-1657",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-2656",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-2332",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-30845",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-30868",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-31432",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-31016",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-3231",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-32519",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-32389",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-45953",
+      "score": 9.1
+    },
+    {
+      "id": "CVE-2025-4765",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-4766",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-4910",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-4911",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-5759",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-49295",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-6863",
+      "score": 7.3
+    }
+  ],
+  "openssh-sftp-server|1:9.6p1-3ubuntu13.11": [],
+  "polkitd|124-2ubuntu1.24.04.2": [],
+  "pdfgear 2.1.6|2.1.6": [],
+  "mc|3:4.8.30-1ubuntu0.1": [],
+  "connect tunnel|12.4.3.266": [],
+  "postgresql-client-13|13.20-1.pgdg22.04+1": [],
+  "subversion|1.14.1-3ubuntu0.22.04.1": [
+    {
+      "id": "CVE-2020-17525",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2022-24070",
+      "score": 7.5
+    }
+  ],
+  "outlook for windows|5001.373.1736.100": [],
+  "postgresql 10|10": [],
+  "sysstat|12.6.1-1": [],
+  "php8.1-readline|8.1.2-1ubuntu2.21": [],
+  "php-common|2:94+ubuntu22.04.1+deb.sury.org+2": [],
+  "ubuntu 22.04.5 lts|2204.5.10021.0": [],
+  "wazuh agent|4.11.1": [],
+  "php-twig-i18n-extension|3.0.0-2": [],
+  "onedrive|25091.512.1.0": [],
+  "winappruntime.singleton|7000.456.1632.0": [],
+  "weka 3.8.6|3.8.6": [],
+  "internet explorer|11.1.22621.0": [],
+  "internet explorer (64bit)|11.1.22621.0": [],
+  "php7.4-bcmath|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "outlook for windows|6000.419.2055.100": [],
+  "php8.1-gd|8.1.2-1ubuntu2.21": [],
+  "google chrome|137.0.7151.103": [],
+  "outlook for windows|1.2025.506.300": [],
+  "udk package|10.0.22621.1": [],
+  "outlook for windows|1000.26100.3775.0": [],
+  "postgresql-11|11.22-9.pgdg22.04+1": [],
+  "pdfgear 2.1.12|2.1.12": [],
+  "postgresql-client-common|274.pgdg22.04+1": [],
+  "php8.1-zip|8.1.2-1ubuntu2.21": [],
+  "pdfsam basic|5.2.0.0": [],
+  "resolver di app|10.0.19640.1000": [],
+  "adobe refresh manager|1.8.0": [],
+  "spotify music|1.247.364.0": [],
+  "xxd|2:8.2.3995-1ubuntu2.19": [],
+  "php7.4-zip|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "python3.10|3.10.12-1~22.04.6": [],
+  "busybox-static|1:1.36.1-6ubuntu3.1": [],
+  "php7.4-gd|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "outlook for windows|1.2025.516.400": [],
+  "total zip|2.1.9.0": [],
+  "safedive 2022 v.4.12.1|4.12.1": [],
+  "libreoffice 7.6.4.1|7.6.4.1": [],
+  "outlook for windows|1.2025.205.100": [],
+  "php8.1-xml|8.1.2-1ubuntu2.21": [],
+  "apache2|2.4.52-1ubuntu4.12": [],
+  "ansible|9.2.0+dfsg-0ubuntu5": [],
+  "wazuh agent|4.12.0": [],
+  "tmux|3.4-1ubuntu0.1": [],
+  "numactl|2.0.18-1build1": [],
+  "phpmyadmin|4:5.1.1+dfsg1-5ubuntu1": [],
+  "cpp-13|13.3.0-6ubuntu2~24.04": [],
+  "google chrome|137.0.7151.104": [],
+  "outlook for windows|1.2025.307.102": [],
+  "linkedin|3.0.42.0": [],
+  "php7.4|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "widgets platform runtime|1.6.9.0": [],
+  "chromium|137.0.7151.68": [],
+  "pdfsam enhanced 7 view module|7.0.70.15196": [],
+  "ghostscript|9.55.0~dfsg1-0ubuntu5.9": [],
+  "php7.4-gnupg|1.5.1-3+ubuntu22.04.1+deb.sury.org+2": [],
+  "widgets platform runtime|1000.26100.3775.0": [],
+  "c5e2524a-ea46-4f67-841f-6a9465d9d515|10.0.26100.1": [],
+  "adobe acrobat (64-bit)|25.001.20531": [],
+  "asbru-cm|6.4.0-1": [],
+  "stampa di windows|6.2.3.0": [],
+  "netplan-generator|1.1.1-1~ubuntu24.04.1": [],
+  "adobe acrobat reader|24.0.0.1": [],
+  "camo studio|2.1.340.0": [],
+  "ffmpeg-2404|7.1.1": [],
+  "php7.4-xml|1:7.4.33-14+ubuntu22.04.1+deb.sury.org+1": [],
+  "php7.4-redis|6.0.2-1+ubuntu22.04.1+deb.sury.org+1": [],
+  "dbeaver-ce|25.1.1.202506221557": [],
+  "python3.10-dev|3.10.12-1~22.04.6": [],
+  "postgresql-17|17.4-1.pgdg22.04+2": [],
+  "python3|3.12.3-0ubuntu2": [],
+  "f46d4000-fd22-4db4-ac8e-4e1ddde828fe|10.0.26100.1": [],
+  "trace-cmd|3.2-1ubuntu2": [],
+  "google chrome|137.0.7151.105": [],
+  "spotifyab.spotifymusic|1.266.447.0": [],
+  "gimp|3.0.4": [],
+  "vim|2:8.2.3995-1ubuntu2.19": [],
+  "ffmpeg-2204|7.0": [],
+  "ncat|7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1": [],
+  "postgresql-16|16.8-1.pgdg120+1": [],
+  "ntfy|2.11.0": [],
+  "postman|10.24.26": [],
+  "openjdk-8-jre|8u452-ga~us1-0ubuntu1~22.04": [],
+  "apache2|2.4.52-1ubuntu4.13": [],
+  "remmina-common|1.4.25+dfsg-1ubuntu0.1": [],
+  "redis|5:7.0.15-1~deb12u3": [],
+  "dike gosign|7.4.0": [],
+  "xserver-xorg-legacy|2:21.1.4-2ubuntu1.7~22.04.15": [],
+  "nftables|1.0.9-1build1": [],
+  "chromium-browser|1:85.0.4183.83-0ubuntu2.22.04.1": [],
+  "at-spi2-common|2.52.0-1build1": [],
+  "internet explorer (64bit)|11.1882.26100.0": [],
+  "php8.1-common|8.1.2-1ubuntu2.21": [],
+  "bpftrace|0.20.2-1ubuntu4.3": [],
+  "rpcsvc-proto|1.4.2-0ubuntu7": [],
+  "unrtf|0.21.10-clean-1": [],
+  "php8.1-mbstring|8.1.2-1ubuntu2.21": [],
+  "firefox|139.0.4-1": [
+    {
+      "id": "CVE-2025-49709",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-49710",
+      "score": 9.8
+    }
+  ],
+  "yelp-xsl|42.0-1ubuntu0.1": [],
+  "postgresql-common-dev|274.pgdg120+1": [],
+  "krita|5.2.9": [],
+  "google chrome|136.0.7103.114": [],
+  "postgresql-client-11|11.22-9.pgdg22.04+1": [],
+  "chromium|137.0.7151.103": [],
+  "chromium-browser-l10n|2:1snap1-0ubuntu2": [],
+  "libreoffice 7.6.3.2|7.6.3.2": [],
+  "chromium-browser|2:1snap1-0ubuntu2": [],
+  "espeak-ng-data|1.51+dfsg-12build1": [],
+  "yelp|42.1-1ubuntu0.1": [],
+  "mesa-2404|24.2.8": [],
+  "ocs inventory ng agent 2.10.1.0|2.10.1.0": [],
+  "sqlite3|3.37.2-2ubuntu0.3": [],
+  "outlook for windows|10.0.26100.3624": [],
+  "librecad|2.2.0.2-1build3": [],
+  "apache2-data|2.4.52-1ubuntu4.12": [],
+  "gparted|1.5.0-1build4": [],
+  "gvfs-common|1.54.0-1ubuntu2": [],
+  "java-common|0.75+exp1": [],
+  "microsoft windows 11 pro|24H2": [],
+  "xserver-common|2:21.1.4-2ubuntu1.7~22.04.15": [],
+  "librecad-data|2.2.0.2-1build3": [],
+  "openjdk-8-jdk|8u452-ga~us1-0ubuntu1~22.04": [
+    {
+      "id": "CVE-2012-2739",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2014-1876",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-4447",
+      "score": -1.0
+    }
+  ],
+  "catdoc|1:0.95-5": [],
+  "iio-sensor-proxy|3.5-1build2": [],
+  "keepassxc|2.7.6+dfsg.1-1build3": [],
+  "gvfs-daemons|1.54.0-1ubuntu2": [],
+  "mysql-common|5.8+1.1.0build1": [],
+  "samba|2:4.15.13+dfsg-0ubuntu1.6": [],
+  "postgresql-client-16|16.8-1.pgdg120+1": [],
+  "openjdk-11-jre|11.0.27+6~us1-0ubuntu1~24.04": [],
+  "ubuntu|2404.1.68.0": [],
+  "ncat|7.94+git20230807.3be01efb1+dfsg-3build2": [],
+  "netplan-generator|1.1.2-2~ubuntu24.04.1": [],
+  "ocl-icd-libopencl1|2.3.2-1build1": [],
+  "evince-common|46.3.1-0ubuntu1": [],
+  "virtualbox-7.0|7.0.16-162802~Ubuntu~jammy": [
+    {
+      "id": "CVE-2024-21103",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2024-21106",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-21107",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2024-21108",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2024-21109",
+      "score": 5.9
+    },
+    {
+      "id": "CVE-2024-21110",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2024-21111",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2024-21112",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-21113",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-21114",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-21115",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-21116",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2024-21121",
+      "score": 6.5
+    }
+  ],
+  "openjdk-21-jre-headless|21.0.7+6~us1-0ubuntu1~24.04": [],
+  "openjdk-21-jre|21.0.7+6~us1-0ubuntu1~24.04": [],
+  "gcr4|4.2.0-5": [],
+  "code|1.95.1-1730355339": [],
+  "endpoint security contextual menu|7.4.1.1": [],
+  "ncsiuwpapp|1000.22621.1.0": [],
+  "apache2-data|2.4.52-1ubuntu4.13": [],
+  "firefox|1:1snap1-0ubuntu5": [],
+  "gvfs|1.54.0-1ubuntu2": [],
+  "gparted-common|1.5.0-1build4": [],
+  "libreoffice|4:24.2.7-0ubuntu0.24.04.4": [],
+  "outlook for windows|1.2025.404.500": [],
+  "p11-kit-modules|0.25.3-4ubuntu2.1": [],
+  "librevenge-0.0-0|0.0.5-3build1": [],
+  "openprinting-ppds|20230202-1": [],
+  "remmina-common|1.4.35+dfsg-0ubuntu5": [],
+  "openssh-client|1:9.6p1-3ubuntu13.12": [],
+  "pipewire|1.0.5-1ubuntu3": [],
+  "librist4|0.2.10+dfsg-2": [],
+  "orca|46.1-1ubuntu1": [],
+  "openjdk-8-jre|8u452-ga~us1-0ubuntu1~24.04": [],
+  "remmina|1.4.35+dfsg-0ubuntu5": [],
+  "pipewire-alsa|1.0.5-1ubuntu3": [],
+  "usbmuxd|1.1.1-5~exp3ubuntu2": [],
+  "tracker-miner-fs|3.7.1-1build1": [],
+  "rygel|0.42.5-1ubuntu3": [],
+  "libreoffice 25.2.3.2|25.2.3.2": [],
+  "tracker-extract|3.7.1-1build1": [],
+  "webp-pixbuf-loader|0.2.4-2build2": [],
+  "udisks2|2.10.1-6ubuntu1.2": [],
+  "ubuntu-kernel-accessories|1.539.2": [],
+  "postgresql-client-17|17.4-1.pgdg22.04+2": [],
+  "x11-common|1:7.7+23ubuntu3": [],
+  "vlc|3.0.20-1-g2617de71b6": [],
+  "ubuntu-advantage-desktop-daemon|1.11ubuntu0.1": [],
+  "ubuntu-desktop|1.539.2": [],
+  "whoopsie|0.2.77build3": [],
+  "whoopsie-preferences|23build3": [],
+  "rustdesk|1.2.3-1": [],
+  "vim|2:9.1.0016-1ubuntu7.8": [],
+  "wireplumber|0.4.17-1ubuntu4": [],
+  "wireless-regdb|2024.10.07-0ubuntu2~24.04.1": [],
+  "xinput|1.6.4-1build1": [],
+  "winappruntime.main.1.5|5001.373.1736.0": [],
+  "at|3.2.5-2.1ubuntu3": [
+    {
+      "id": "CVE-2000-0634",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2004-0881",
+      "score": 2.1
+    },
+    {
+      "id": "CVE-2005-1650",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2005-1651",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2005-1652",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2005-1653",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2005-3280",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2008-6382",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2009-1962",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2009-2037",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2009-3236",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2009-3237",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2009-4227",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2009-4228",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2010-4262",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2011-2688",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2012-1207",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2012-1208",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2012-1209",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2012-1839",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2012-1840",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2012-4263",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2012-4264",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2012-4623",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2013-6429",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2014-3525",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2014-6631",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2014-7228",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2016-9470",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2016-9472",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2017-9991",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2017-9992",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2017-9994",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2017-9996",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2017-10617",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2018-8039",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2018-10906",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2018-3998",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2018-3999",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2018-4000",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2018-4001",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2019-16394",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2013-3551",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2020-12835",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2020-8919",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2020-8920",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2021-41598",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2021-41599",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2022-29154",
+      "score": 7.4
+    },
+    {
+      "id": "CVE-2022-2431",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2022-3333",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2022-2839",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-4930",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2023-27596",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2023-28096",
+      "score": 4.5
+    },
+    {
+      "id": "CVE-2023-27888",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2022-36244",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2021-4347",
+      "score": 9.9
+    },
+    {
+      "id": "CVE-2023-48042",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2023-49706",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2024-1018",
+      "score": 2.4
+    },
+    {
+      "id": "CVE-2024-22202",
+      "score": 5.7
+    },
+    {
+      "id": "CVE-2024-22208",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-1512",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2024-39320",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-8871",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-49521",
+      "score": 7.7
+    },
+    {
+      "id": "CVE-2024-10637",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2024-12581",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2024-13446",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-3787",
+      "score": 2.7
+    }
+  ],
+  "python 3.11|3.11.2544.0": [],
+  "xserver-common|2:21.1.12-1ubuntu1.4": [],
+  "widgets platform runtime|1.6.8.0": [],
+  "7-zip 24.09 (x64)|24.09": [],
+  "x11proto-dev|2023.2-1": [],
+  "wpasupplicant|2:2.10-21ubuntu0.2": [],
+  "xcvt|0.1.2-1build1": [],
+  "xbitmaps|1.1.1-2.2": [],
+  "x11-apps|7.7+11build3": [],
+  "microsoft windows 11 home|23H2": [],
+  "postgresql-common|274.pgdg120+1": [],
+  "xdg-desktop-portal-gnome|46.2-0ubuntu1": [],
+  "xserver-xorg-input-wacom|1:1.2.0-1ubuntu2": [],
+  "xserver-xorg|1:7.7+23ubuntu3": [],
+  "xserver-xorg-legacy|2:21.1.12-1ubuntu1.4": [],
+  "xwayland|2:23.2.6-1ubuntu0.6": [],
+  "zip|3.0-13ubuntu0.2": [],
+  "yelp-xsl|42.1-2ubuntu0.24.04.1": [],
+  "catdoc|1:0.95-5build1": [],
+  "zenity-common|4.0.1-1build3": [],
+  "bup|0.33.3-1build2": [],
+  "xserver-xorg-input-all|1:7.7+23ubuntu3": [],
+  "yelp|42.2-1ubuntu0.24.04.1": [],
+  "chromium|136.0.7103.113": [],
+  "aha|0.5.1-3build1": [],
+  "pdfsam enhanced 7|7.0.75.1820": [],
+  "anydesk|6.3.0": [],
+  "libre2-10|20230301-3build1": [],
+  "clinfo|3.0.23.01.25-1build1": [],
+  "flameshot|12.1.0-2build2": [],
+  "grim|1.4.0+ds-2build2": [],
+  "phonon-backend-vlc-common|0.12.0-3build3": [],
+  "bup-doc|0.33.3-1build2": [],
+  "milou|4:5.27.11-0ubuntu2": [],
+  "par2|0.8.1-3build1": [],
+  "partitionmanager|23.08.5-0ubuntu4": [],
+  "kup-backup|0.9.1-1build5": [],
+  "mesa-2404|24.2.8-snap183": [],
+  "phonon4qt5|4:4.12.0-3.1build3": [],
+  "postgresql-client-17|17.0-1.pgdg22.04+1": [],
+  "google-chrome-stable|137.0.7151.119-1": [],
+  "phonon4qt5-backend-vlc|0.12.0-3build3": [],
+  "postgresql-client-common|264.pgdg22.04+1": [],
+  "dbeaver-ee|25.1.0": [],
+  "ghostscript-x|9.55.0~dfsg1-0ubuntu5.11": [],
+  "qml-module-qt-labs-platform|5.15.13+dfsg-1": [],
+  "postgresql-client-16|16.9-0ubuntu0.24.04.1": [],
+  "postgresql|17+264.pgdg22.04+1": [],
+  "postgresql-17|17.0-1.pgdg22.04+1": [],
+  "esperienza input di windows|1000.26100.107.0": [],
+  "qml-module-qtqml-models2|5.15.13+dfsg-1ubuntu0.1": [],
+  "postgresql-common|264.pgdg22.04+1": [],
+  "winappruntime.singleton|7000.498.2246.0": [],
+  "evince|46.3.1-0ubuntu1": [],
+  "bubblewrap|0.9.0-1ubuntu0.1": [],
+  "qml-module-qt-labs-folderlistmodel|5.15.13+dfsg-1ubuntu0.1": [],
+  "busybox-initramfs|1:1.36.1-6ubuntu3.1": [],
+  "qml-module-qt-labs-qmlmodels|5.15.13+dfsg-1ubuntu0.1": [],
+  "google-chrome-stable|130.0.6723.116-1": [],
+  "qml-module-qtgraphicaleffects|5.15.13-1": [],
+  "socat|1.8.0.0-4build3": [],
+  "qml-module-qtquick-dialogs|5.15.13-1": [],
+  "qml-module-qtquick-privatewidgets|5.15.13-1": [],
+  "qml-module-qtqml|5.15.13+dfsg-1ubuntu0.1": [],
+  "qml-module-qtquick2|5.15.13+dfsg-1ubuntu0.1": [],
+  "qml-module-qtquick-window2|5.15.13+dfsg-1ubuntu0.1": [],
+  "vlc-data|3.0.20-3build6": [],
+  "qml-module-qtquick-templates2|5.15.13+dfsg-1": [],
+  "qml-module-qtquick-shapes|5.15.13+dfsg-1ubuntu0.1": [],
+  "qml-module-qtwebengine|5.15.16+dfsg-3": [],
+  "qtwayland5|5.15.13-1": [],
+  "qtchooser|66-2build2": [],
+  "keepassxc|2.6.6+dfsg.1-1": [],
+  "subversion|1.14.3-1build4": [],
+  "eclipse|2025-06": [],
+  "firebird3.0-common|3.0.11.33703.ds4-2ubuntu2": [],
+  "gcc-11-base|11.4.0-9ubuntu1": [],
+  "dbeaver-ce|25.0.5.202505181758": [],
+  "python3.12|3.12.3-1ubuntu0.5": [],
+  "openjdk-8-jdk-headless|8u452-ga~us1-0ubuntu1~22.04": [],
+  "remmina|1.4.25+dfsg-1ubuntu0.1": [],
+  "xwayland|2:23.2.6-1ubuntu0.5": [],
+  "firebird3.0-common-doc|3.0.11.33703.ds4-2ubuntu2": [],
+  "cloud-init|25.1.2-0ubuntu0~24.04.1": [],
+  "xserver-common|2:21.1.12-1ubuntu1.3": [],
+  "udisks2|2.10.1-6ubuntu1": [],
+  "xserver-xephyr|2:21.1.4-2ubuntu1.7~22.04.15": [],
+  "kate|25.04.2": [],
+  "libreoffice7.6-base|7.6.7.2-2": [],
+  "meld|3.22.2-1": [],
+  "xwayland|2:22.1.1-1ubuntu0.19": [],
+  "librest-1.0-0|0.9.1-6build3": [],
+  "libreoffice7.6-ure|7.6.7.2-2": [],
+  "lp-solve|5.5.2.5-2ubuntu0.1": [],
+  "memtest86+|7.00-1build1": [],
+  "libreoffice7.6-math|7.6.7.2-2": [],
+  "postgresql-9.6|9.6.24-10.pgdg24.04+1": [],
+  "postgresql-client-9.6|9.6.24-10.pgdg24.04+1": [],
+  "libreoffice7.6|7.6.7.2-2": [],
+  "libreoffice7.6-draw|7.6.7.2-2": [],
+  "openjdk-8-jdk-headless|8u452-ga~us1-0ubuntu1~24.04": [],
+  "imagemagick-6-common|8:6.9.12.98+dfsg1-5.2build2": [],
+  "libreoffice7.6-writer|7.6.7.2-2": [],
+  "libreoffice7.6-dict-es|7.6.7.2-2": [],
+  "ghostscript|10.02.1~dfsg1-0ubuntu7.6": [],
+  "google chrome|122.0.6261.95": [],
+  "glpi agent 1.7.1|1.7.1": [],
+  "postgresql-common-dev|278.pgdg24.04+1": [],
+  "python3.12|3.12.3-1ubuntu0.6": [],
+  "samba|2:4.19.5+dfsg-4ubuntu9": [],
+  "power automate|1.0.219.0": [],
+  "il tuo telefono|0.22022.147.0": [],
+  "estensioni di immagine webp|1.0.42351.0": [],
+  "gimp 2.10.36|2.10.36": [],
+  "openjdk-8-jre-headless|8u452-ga~us1-0ubuntu1~24.04": [],
+  "tecla|46.0-1build1": [],
+  "openjdk-8-jdk|8u452-ga~us1-0ubuntu1~24.04": [],
+  "openjdk-11-jre-headless|11.0.27+6~us1-0ubuntu1~24.04": [],
+  "pipewire-pulse|1.0.5-1ubuntu3": [],
+  "openvpn|2.6.12-0ubuntu0.24.04.3": [],
+  "pdfsam enhanced 7 edit module|7.0.70.15196": [],
+  "ubuntu-docs|24.04.2": [],
+  "autocad open in desktop|1.0.27.0": [],
+  "mutter-common|46.2-1ubuntu0.24.04.8": [],
+  "autocad lt 2025 - italiano (italian)|25.0.58.0": [],
+  "autodesk access|2.5.0.112": [],
+  "autocad lt private|25.0.58.0": [],
+  "autodesk autocad lt 2025 - italiano (italian)|25.0.58.0": [],
+  "appup.intelgraphicsexperience|1.100.5435.0": [],
+  "clipchamp.clipchamp|3.0.10220.0": [],
+  "autodesk cer|7.0.1.610": [],
+  "autodesk genuine service|7.4.0.223": [],
+  "tracker|3.7.1-1build1": [],
+  "autodesk identity manager|1.11.9.11": [],
+  "dbeaver-ce|25.1.0": [],
+  "xdg-desktop-portal|1.18.4-1ubuntu2.24.04.1": [],
+  "pdf24 creator 11.17.0|11.17.0": [],
+  "xdg-desktop-portal-gtk|1.15.1-1build2": [],
+  "spotify music|1.235.663.0": [],
+  "default-jdk-headless|2:1.21-75+exp1": [],
+  "7zip|23.01+dfsg-11": [],
+  "fcitx5-chinese-addons-data|5.1.3-1build3": [],
+  "wazuh agent|4.7.2": [],
+  "fcitx5-chinese-addons|5.1.3-1build3": [],
+  "fcitx5-module-chttrans|5.1.3-1build3": [],
+  "fcitx5-module-cloudpinyin|5.1.3-1build3": [],
+  "fcitx5-module-lua|5.0.12-1": [],
+  "fcitx5-module-fullwidth|5.1.3-1build3": [],
+  "fcitx5-module-lua-common|5.0.12-1": [],
+  "dmraid|1.0.0.rc16-12ubuntu2": [],
+  "elisa|23.08.5-0ubuntu3": [],
+  "fcitx5-data|5.1.7-1build3": [],
+  "dolphin|4:23.08.5-0ubuntu4": [],
+  "xinit|1.4.1-0ubuntu5": [],
+  "ffmpeg|7:6.1.1-3ubuntu5": [],
+  "fcitx5-module-punctuation|5.1.3-1build3": [],
+  "fcitx5-pinyin|5.1.3-1build3": [],
+  "go-mtpfs|1.0.0+git20200111.42254b1-1ubuntu0.24.04.2": [],
+  "xserver-xephyr|2:21.1.12-1ubuntu1.4": [],
+  "fcitx5-table|5.1.3-1build3": [],
+  "gnustep-common|2.9.1-3build1": [],
+  "zenity|4.0.1-1build3": [],
+  "kmahjongg|4:23.08.5-0ubuntu4": [],
+  "appmenu-gtk3-module|0.7.6-2.1ubuntu2": [],
+  "power-profiles-daemon|0.21-1": [],
+  "libresid-builder0c2a|2.1.1-15ubuntu3": [],
+  "xserver-xorg-input-libinput|1.4.0-1ubuntu24.04.1": [],
+  "kate|4:23.08.5-0ubuntu3": [],
+  "kate5-data|4:23.08.5-0ubuntu3": [],
+  "kirigami-addons-data|0.11.0-0ubuntu5": [],
+  "ksudoku|4:23.08.5-0ubuntu4": [],
+  "openjdk-21-jdk-headless|21.0.7+6~us1-0ubuntu1~24.04": [],
+  "kpeople-vcard|0.1-3build3": [],
+  "dbeaver-ce|24.0.1": [],
+  "openoffice.org-hyphenation|0.10ubuntu2": [],
+  "xorg|1:7.7+23ubuntu3": [],
+  "postgresql-16|16.9-0ubuntu0.24.04.1": [],
+  "openjdk-21-jdk|21.0.7+6~us1-0ubuntu1~24.04": [],
+  "okular-extra-backends|4:23.08.5-0ubuntu5": [],
+  "ksshaskpass|4:5.27.11-0ubuntu3": [],
+  "qt6-translations-l10n|6.4.2-1": [],
+  "postman|11.49.0": [],
+  "ovmf|2024.02-2ubuntu0.4": [],
+  "qemu-block-extra|1:8.2.2+ds-0ubuntu1.7": [],
+  "qml-module-qtlocation|5.15.13+dfsg-1": [],
+  "signond|8.61-1ubuntu5": [],
+  "qml-module-qtpositioning|5.15.13+dfsg-1": [],
+  "print-manager|4:23.08.5-0ubuntu4": [],
+  "powerdevil-data|4:5.27.11-0ubuntu2": [],
+  "reiserfsprogs|1:3.6.27-7.1build1": [],
+  "smbclient|2:4.19.5+dfsg-4ubuntu9": [],
+  "signon-kwallet-extension|4:23.08.5-0ubuntu4": [],
+  "skanpage|23.08.5-0ubuntu4": [],
+  "sshfs|3.7.3-1.1build3": [],
+  "skanlite|23.08.5-0ubuntu4": [],
+  "thunderbird|128.11.1esr-1": [],
+  "virt-viewer|11.0-3build2": [],
+  "postgresql|17+274.pgdg22.04+1": [],
+  "xorriso|1:1.5.6-1.1ubuntu3": [],
+  "openjdk-11-jdk-headless|11.0.27+6~us1-0ubuntu1~24.04": [],
+  "kgamma5|4:5.27.11-0ubuntu3": [],
+  "openjdk-11-jdk|11.0.27+6~us1-0ubuntu1~24.04": [],
+  "xserver-xorg-legacy|2:21.1.12-1ubuntu1.3": [],
+  "xserver-xephyr|2:21.1.12-1ubuntu1.3": [],
+  "google-chrome-stable|135.0.7049.114-1": [],
+  "yt-dlp|2024.04.09-1": [],
+  "cpp-11|11.4.0-9ubuntu1": [],
+  "dbeaver-ce|25.0.0": [],
+  "libreoffice7.6-debian-menus|7.6.7-2": [],
+  "rustdesk|1.2.3": [],
+  "google-chrome-stable|133.0.6943.141-1": [],
+  "spice-vdagent|0.22.1-4build3": [],
+  "powerdevil|4:5.27.11-0ubuntu2": [],
+  "gcc-12-base|12.3.0-17ubuntu1": [],
+  "vlc|3.0.20-3build6": [],
+  "google-chrome-stable|128.0.6613.119-1": [],
+  "vlc-l10n|3.0.20-3build6": [],
+  "qml-module-qtquick-layouts|5.15.13+dfsg-1ubuntu0.1": [],
+  "bogofilter-common|1.2.5-1build4": [],
+  "bogofilter-bdb|1.2.5-1build4": [],
+  "desktop-base|12.0.6+nmu1ubuntu1": [],
+  "cdrdao|1:1.2.4-3build1": [],
+  "bogofilter|1.2.5-1build4": [],
+  "code|1.101.1-1750254731": [],
+  "brasero-common|3.12.3-2build4": [],
+  "eslint|6.4.0~dfsg+~6.1.9-11build3": [],
+  "evdi|1.14.10-151": [],
+  "dbeaver-ee|25.0.0": [],
+  "flatpak|1.14.6-1ubuntu0.1": [],
+  "dbeaver-ce|24.3.3": [],
+  "clipchamp|2.2.8.0": [],
+  "fractal|11.2": [],
+  "libreoffice7.6-calc|7.6.7.2-2": [],
+  "spotify music|1.231.1205.0": [],
+  "filezilla-common|3.66.5-2build2": [],
+  "folks-common|0.15.9-1ubuntu5": [],
+  "five-or-more|1:3.32.3-1build2": [],
+  "gnome|1:44+1build1": [],
+  "forticlient|7.4.0.1636": [],
+  "gnome application platform version 48|48": [],
+  "postgresql-contrib-9.6|9.6.24-10.pgdg24.04+1": [],
+  "golang|2:1.22~2build1": [],
+  "fractal translations|stable": [],
+  "gnome platform translations|48": [],
+  "golang-1.22-src|1.22.2-2ubuntu0.4": [],
+  "gyp|0.1+20220404git9ecf45e-2": [],
+  "golang-src|2:1.22~2build1": [],
+  "graphviz|2.42.2-9ubuntu0.1": [],
+  "iagno|1:3.38.1-2build2": [],
+  "g++|4:13.2.0-7ubuntu1": [],
+  "libreoffice7.6-impress|7.6.7.2-2": [],
+  "hitori|44.0-2build2": [],
+  "golang-doc|2:1.22~2build1": [],
+  "outlook for windows|1.2024.313.100": [],
+  "gimp 2.10.36-1|2.10.36": [],
+  "jp2a|1.1.1-2ubuntu2": [],
+  "lightsoff|1:46.0-1": [],
+  "imagemagick|8:6.9.12.98+dfsg1-5.2build2": [],
+  "postgresql-common|278.pgdg24.04+1": [],
+  "postgresql-client-common|278.pgdg24.04+1": [],
+  "mesa|25.1.3": [],
+  "netpbm|2:11.05.02-1.1build1": [],
+  "sveglie e orologio windows|1.0.75.0": [],
+  "hoichess|0.22.0-3build1": [],
+  "imagemagick-6.q16|8:6.9.12.98+dfsg1-5.2build2": [],
+  "microsoft windows 11 pro|23H2": [],
+  "pdfsam basic|5.2.2.0": [],
+  "nodejs|18.19.1+dfsg-6ubuntu5": [],
+  "nodejs-doc|18.19.1+dfsg-6ubuntu5": [],
+  "m17n-db|1.8.5-1": [],
+  "mesa (extra)|25.1.3": [],
+  "neofetch|7.1.0-4": [],
+  "fcitx5-modules|5.1.7-1build3": [],
+  "fcitx5|5.1.7-1build3": [],
+  "office|18.2204.1141.0": [],
+  "openh264|2.5.1": [],
+  "fcitx5-module-pinyinhelper|5.1.3-1build3": [],
+  "outlook for windows|1.2024.214.400": [],
+  "postgresql-17|17.5-1.pgdg24.04+1": [],
+  "postgresql-client-17|17.5-1.pgdg24.04+1": [],
+  "rhythmbox|3.4.7-2ubuntu6": [],
+  "openssh-server|1:9.6p1-3ubuntu13.12": [],
+  "kmines|4:23.08.5-0ubuntu4": [],
+  "postgresql-client|17+278.pgdg24.04+1": [],
+  "rhythmbox-data|3.4.7-2ubuntu6": [],
+  "fcitx5-pinyin-gui|5.1.3-1build3": [],
+  "spotify-client|1:1.2.60.564.gcc6305cb": [],
+  "ssh-import-id|5.11-0ubuntu2.24.04.1": [],
+  "ppa-purge|0.2.8+bzr63-0ubuntu2.1": [],
+  "google chrome|123.0.6312.123": [],
+  "krdc|4:23.08.5-0ubuntu4": [],
+  "totem|43.0-2ubuntu4": [],
+  "kubuntu-desktop|1.451.2": [],
+  "okular|4:23.08.5-0ubuntu5": [],
+  "shotwell|0.32.6-1ubuntu3": [],
+  "ssh|1:9.6p1-3ubuntu13.12": [],
+  "totem-common|43.0-2ubuntu4": [],
+  "transmission-common|4.0.5-1build5": [],
+  "toilet|0.3-1.4build1": [],
+  "shotwell-common|0.32.6-1ubuntu3": [],
+  "terser|5.19.2-1": [],
+  "default-jdk|2:1.21-75+exp1": [],
+  "thunderbird|2:1snap1-0ubuntu3": [],
+  "zsh|5.9-6ubuntu2": [],
+  "element-desktop|1.11.104": [],
+  "lame|3.100-6build1": [],
+  "uwsgi|2.0.24-2ubuntu10": [],
+  "go-l2tp|0.1.7-1ubuntu0.1": [],
+  "neochat|23.08.5-0ubuntu4.1": [],
+  "virtualbox-7.1|7.1.6-167084~Ubuntu~noble": [],
+  "w3m-img|0.5.3+git20230121-2ubuntu5": [],
+  "nextcloud-desktop-l10n|3.11.0-1.1build4": [],
+  "unar|1.10.7+ds1+really1.10.1-3build1": [],
+  "nextcloud-desktop-doc|3.11.0-1.1build4": [],
+  "p7zip-full|16.02+transitional.1": [],
+  "virtualbox-qt|7.0.16-dfsg-2ubuntu1.1": [],
+  "haruna|0.12.3-1build4": [],
+  "strongswan-starter|5.9.13-2ubuntu4": [],
+  "nextcloud-desktop|3.11.0-1.1build4": [],
+  "qt6-wayland|6.4.2-5build3": [],
+  "google-chrome-stable|138.0.7204.49-1": [],
+  "nmap|7.94+git20230807.3be01efb1+dfsg-3build2": [],
+  "intellij-idea-community|2025.1.1.1": [],
+  "virtinst|1:4.1.0-3ubuntu0.1": [],
+  "whois|5.5.22": [],
+  "google-chrome-stable|136.0.7103.113-1": [],
+  "virtualbox-ext-pack|7.0.16-1": [],
+  "virtualbox|7.0.16-dfsg-2ubuntu1.1": [],
+  "wvdial|1.61-7build2": [],
+  "virtualbox-dkms|7.0.16-dfsg-2ubuntu1.1": [],
+  "qml-module-qtqml|5.15.13+dfsg-1": [],
+  "seabios|1.16.3-2": [],
+  "docker-ce|5:28.1.1-1~ubuntu.24.04~noble": [],
+  "qml-module-qt-labs-folderlistmodel|5.15.13+dfsg-1": [],
+  "dbeaver-ce|25.0.5": [],
+  "docker|28.1.1+1": [],
+  "qml-module-qtquick-particles2|5.15.13+dfsg-1": [],
+  "qml-module-qtquick-shapes|5.15.13+dfsg-1": [],
+  "docker-ce|5:28.2.2-1~ubuntu.22.04~jammy": [],
+  "docker-desktop|4.32.0-157355": [],
+  "qml-module-qtquick-layouts|5.15.13+dfsg-1": [],
+  "osinfo-db|0.20250124-0ubuntu0.24.04.1": [],
+  "firefox|139.0.4~build1": [],
+  "qml-module-qtquick-particles2|5.15.13+dfsg-1ubuntu0.1": [],
+  "gamin|0.1.10-6": [],
+  "qml-module-qtquick-xmllistmodel|5.15.13-1": [],
+  "qml-module-qtqml-models2|5.15.13+dfsg-1": [],
+  "dbeaver-ce|24.2.0": [],
+  "flameshot|11.0.0-2": [],
+  "lintian|2.117.0ubuntu1.3": [],
+  "signon-ui-x11|0.17+18.04.20171027+really20160406-0ubuntu7": [],
+  "filezilla|3.66.5-2build2": [],
+  "code|258e40fe": [],
+  "filezilla|3.58.0-1ubuntu0.1": [],
+  "filezilla-common|3.58.0-1ubuntu0.1": [],
+  "signon-ui-service|0.17+18.04.20171027+really20160406-0ubuntu7": [],
+  "dleyna-server|0.8.3-1build2": [],
+  "docker-ce|5:28.2.2-1~ubuntu.24.04~noble": [],
+  "kate5-data|4:21.12.3-0ubuntu1": [],
+  "kate|4:21.12.3-0ubuntu1": [],
+  "swtpm|0.7.3-0ubuntu5.24.04.1": [],
+  "google-chrome-stable|137.0.7151.103-1": [],
+  "nodejs|22.16.0-1nodesource1": [],
+  "gosigndesktop|2.1.2": [],
+  "grim|1.4.0+ds-1": [],
+  "oem-somerville-meta|22.04ubuntu2": [],
+  "usb-creator-common|0.3.17": [],
+  "p7zip|16.02+dfsg-8": [],
+  "idprotectclientlib|633.00-0": [],
+  "p7zip-full|16.02+dfsg-8": [],
+  "code|1.97.2-1739406807": [],
+  "ovmf|2022.02-3ubuntu0.22.04.3": [],
+  "oem-somerville-cinccino-meta|22.04ubuntu5": [],
+  "vpnc-scripts|0.1~git20220510-1": [],
+  "pass|1.7.4-5": [],
+  "gimp-data|2.10.36-3ubuntu0.24.04.1": [],
+  "opensc|0.22.0-1ubuntu2.1": [],
+  "chromium|137.0.7151.119": [],
+  "postgresql-client-common|278.pgdg22.04+1": [],
+  "golang-1.22|1.22.2-2ubuntu0.4": [],
+  "postgresql-common-dev|278.pgdg22.04+1": [],
+  "qml-module-qtqml|5.15.3+dfsg-1": [],
+  "php-dev|2:8.1+92ubuntu1": [],
+  "virt-manager|1:4.1.0-3ubuntu0.1": [],
+  "php8.1-dev|8.1.2-1ubuntu2.21": [],
+  "qml-module-qt-labs-folderlistmodel|5.15.3+dfsg-1": [],
+  "postgresql-14|14.18-1.pgdg22.04+1": [],
+  "pipenv|11.9.0-1.1": [],
+  "qml-module-qtquick-layouts|5.15.3+dfsg-1": [],
+  "postgresql-client-14|14.18-1.pgdg22.04+1": [],
+  "qemu-block-extra|1:6.2+dfsg-2ubuntu6.26": [],
+  "python3.5|3.5.10-1+focal3": [],
+  "qml-module-qtquick-templates2|5.15.3+dfsg-1": [],
+  "qtwayland5|5.15.3-1": [],
+  "qrencode|4.1.1-1": [],
+  "pcscd|2.0.3-1build1": [],
+  "golang-go|2:1.22~2build1": [],
+  "uidmap|1:4.8.1-2ubuntu2.2": [],
+  "qml-module-qtquick-window2|5.15.3+dfsg-1": [],
+  "qml-module-qtquick2|5.15.3+dfsg-1": [],
+  "yarn|1.22.22-1": [],
+  "qml-module-qtquick-privatewidgets|5.15.3-1": [],
+  "obs-studio|30.0.2+dfsg-3build1": [],
+  "deck|1.4.0-1ubuntu0.20.04.3": [],
+  "dde-qt5integration|5.5.17-2": [],
+  "ffmpeg extension with extra codecs|24.08": [],
+  "tree|2.0.2-1": [],
+  "google-chrome-stable|131.0.6778.85-1": [],
+  "mutter-common|42.9-0ubuntu8": [],
+  "npm|9.2.0~ds1-2": [],
+  "whois|5.5.13": [],
+  "opensc-pkcs11|0.22.0-1ubuntu2": [],
+  "openvpn|2.5.9-0ubuntu0.22.04.3": [],
+  "gimp|2.10.36-3ubuntu0.24.04.1": [],
+  "idprotectclient|633.02-0": [],
+  "four-in-a-row|1:3.38.1-1build3": [],
+  "firefox|128.0~build2": [],
+  "krdc|25.04.2": [],
+  "musl|1.2.2-4": [],
+  "kompare|4.2.25042": [],
+  "xdg-desktop-portal|1.14.4-1ubuntu2~22.04.1": [],
+  "firefox|139.0.1-1": [],
+  "postgresql-client-common|261.pgdg22.04+1": [],
+  "golang-1.22-go|1.22.2-2ubuntu0.4": [],
+  "remmina|v1.4.39+git7.f2909bddc": [],
+  "gcc-12|12.3.0-17ubuntu1": [],
+  "opensc-pkcs11|0.25.0~rc1-1build2": [],
+  "linphone-desktop|5.0.2-4build5": [],
+  "linphone-common|5.2.0-4.3ubuntu2": [],
+  "python3.12-venv|3.12.3-1ubuntu0.7": [],
+  "opensc|0.25.0~rc1-1build2": [],
+  "xdg-desktop-portal-gnome|42.1-0ubuntu1": [],
+  "golang-1.22-doc|1.22.2-2ubuntu0.4": [],
+  "swell-foop|1:46.0-1": [],
+  "pipenv|2023.12.1+ds-1": [],
+  "httpie|3.2.2-1": [],
+  "python3.12-dev|3.12.3-1ubuntu0.6": [],
+  "handlebars|3:4.7.7+~4.1.0-1": [],
+  "pycharm-community|2025.1.2": [],
+  "virtualbox-source|7.0.16-dfsg-2ubuntu1.1": [],
+  "qemu-block-extra|1:6.2+dfsg-2ubuntu6.24": [],
+  "unrar|1:6.1.5-1ubuntu0.1": [],
+  "postgresql-client-14|14.13-1.pgdg22.04+1": [],
+  "postgresql-common|262.pgdg22.04+1": [],
+  "zsh-common|5.9-6ubuntu2": [],
+  "python3.12-venv|3.12.3-1ubuntu0.6": [],
+  "dbeaver-ce|24.3.0": [],
+  "gyp|0.1+20210831gitd6c5dd5-5": [],
+  "tali|1:40.9-1build2": [],
+  "docker-compose|1.29.2-1": [],
+  "pythonpy|0.4.11b-3ubuntu1": [],
+  "rygel-tracker|0.42.5-1ubuntu3": [],
+  "code|1.95.2-1730981514": [],
+  "nodejs|12.22.9~dfsg-1ubuntu3.6": [],
+  "twine|3.8.0-1": [],
+  "openssh-sftp-server|1:9.6p1-3ubuntu13.12": [],
+  "firefox|136.0.1~build1": [],
+  "transmission-gtk|4.0.5-1build5": [],
+  "gimp-data|2.10.30-1ubuntu0.1": [],
+  "openfortivpn|1.21.0-2build2": [],
+  "pipx|1.0.0-1": [],
+  "gimp|2.10.30-1ubuntu0.1": [],
+  "nmap-common|7.94+git20230807.3be01efb1+dfsg-3build2": [],
+  "w3m|0.5.3+git20230121-2ubuntu5": [],
+  "code|1.98.2-1741788907": [],
+  "rygel-playbin|0.42.5-1ubuntu3": [],
+  "webpack|5.76.1+dfsg1+~cs17.16.16-1": [],
+  "nextcloud-desktop-common|3.11.0-1.1build4": [],
+  "xserver-xephyr|2:21.1.4-2ubuntu1.7~22.04.13": [],
+  "google-chrome-stable|134.0.6998.88-1": [],
+  "libreoffice7.3-draw|7.3.7.2-2": [],
+  "libreoffice7.3-base|7.3.7.2-2": [],
+  "libreoffice7.3-calc|7.3.7.2-2": [],
+  "strongswan-charon|5.9.13-2ubuntu4": [],
+  "cloud-init|24.4.1-0ubuntu0~24.04.3": [],
+  "wireless-regdb|2024.07.04-0ubuntu1~22.04.1": [],
+  "libreoffice7.3-impress|7.3.7.2-2": [],
+  "strongswan|5.9.13-2ubuntu4": [],
+  "xwayland|2:22.1.1-1ubuntu0.17": [],
+  "libreoffice7.3-math|7.3.7.2-2": [],
+  "needrestart|3.6-7ubuntu4.5": [],
+  "postgresql-14|14.17-1.pgdg22.04+1": [],
+  "pycharm-community|2024.3.4": [],
+  "postgresql-client|16+257build1.1": [],
+  "qml-module-qtquick2|5.15.13+dfsg-1": [],
+  "zabbix-agent2|1:7.2.7-1+ubuntu22.04": [],
+  "unminimize|0.2.1": [],
+  "zerofree|1.1.1-1build5": [],
+  "open-iscsi|2.1.9-3ubuntu5.3": [],
+  "pollinate|4.33-3.1ubuntu1.1": [],
+  "openresty-pcre|8.45-1~bullseye1": [],
+  "7-zip 24.08 (x64)|24.08": [],
+  "openresty|1.27.1.1-1~bullseye1": [],
+  "opensc-pkcs11|0.22.0-1ubuntu2.1": [],
+  "internet explorer (64bit)|11.3636.19041.0": [],
+  "openresty-opm|1.27.1.1-1~bullseye1": [],
+  "ncsiuwpapp|1000.19041.1023.0": [],
+  "php-pgsql|2:8.1+92ubuntu1": [],
+  "adobe acrobat (64-bit)|25.001.20435": [],
+  "microsoft windows 10 pro|22H2": [],
+  "ncsiuwpapp|1000.19041.4239.0": [],
+  "outlook for windows|1.2025.205.0": [],
+  "intellij-idea-community|2025.1.2": [],
+  "internet explorer|11.3636.19041.0": [],
+  "qml-module-qt-labs-qmlmodels|5.15.13+dfsg-1": [],
+  "postgresql-client-common|257build1.1": [],
+  "qml-module-qtquick-window2|5.15.13+dfsg-1": [],
+  "udk package|10.0.19041.1023": [],
+  "udk package|10.0.19041.4239": [],
+  "quadrapassel|1:40.2-1build2": [],
+  "openoffice 4.1.15|4.115.9813": [],
+  "patroni|4.0.5-1.pgdg24.04+1": [],
+  "graphviz|2.42.2-6ubuntu0.1": [],
+  "rpcbind|1.2.6-7ubuntu2": [],
+  "tomcat9|9.0.58-1ubuntu0.1": [],
+  "postgresql-common|257build1.1": [],
+  "php8.1-pgsql|8.1.2-1ubuntu2.21": [],
+  "postgresql-common|278.pgdg22.04+1": [],
+  "byzanz|0.3.0+git20160312-5": [],
+  "outlook for windows|1.2025.219.400": [],
+  "postgresql 9.6|9.6": [],
+  "php-intl|2:8.1+92ubuntu1": [],
+  "opensc|0.22.0-1ubuntu2": [],
+  "php-memcache|8.0+4.0.5.2+3.0.9~20170802.e702b5f9+-7": [],
+  "php-gmp|2:8.1+92ubuntu1": [],
+  "php-imap|2:8.1+92ubuntu1": [],
+  "postgresql-client-14|14.18-1.pgdg24.04+1": [],
+  "php-fpm|2:8.1+92ubuntu1": [],
+  "php-pspell|2:8.1+92ubuntu1": [],
+  "php-snmp|2:8.1+92ubuntu1": [],
+  "php8.1-memcache|8.0+4.0.5.2+3.0.9~20170802.e702b5f9+-7": [],
+  "php8.1-intl|8.1.2-1ubuntu2.21": [],
+  "php8.1-snmp|8.1.2-1ubuntu2.21": [],
+  "pgadmin4|9.4": [],
+  "php8.1-gmp|8.1.2-1ubuntu2.21": [],
+  "postgresql-common|261.pgdg22.04+1": [],
+  "code|1.93.1-1726079302": [],
+  "smistrip|0.4.8+dfsg2-16": [],
+  "pcscd|1.9.5-3ubuntu1": [],
+  "qml-module-qtgraphicaleffects|5.15.3-1": [],
+  "php8.1-imap|8.1.2-1ubuntu2.21": [],
+  "module-assistant|0.11.11ubuntu1": [],
+  "nodejs|20.17.0-1nodesource1": [],
+  "qml-module-qtqml-models2|5.15.3+dfsg-1": [],
+  "php8.1-pspell|8.1.2-1ubuntu2.21": [],
+  "code|1.91.1-1720564633": [],
+  "python-certbot-apache|0.31.0-1+ubuntu18.04.1+certbot+1": [],
+  "ubuntu-desktop|1.481.1": [],
+  "gcc-11|11.4.0-9ubuntu1": [],
+  "apache2|2.4.52-1ubuntu4.9": [],
+  "postgresql-14|14.13-1.pgdg22.04+1": [],
+  "postgresql-client-common|262.pgdg22.04+1": [],
+  "ssh|1:8.9p1-3ubuntu0.13": [],
+  "bareos|23.0.3~pre116.78e650e30-88": [],
+  "cpp-12|12.3.0-17ubuntu1": [],
+  "qml-module-qtquick-dialogs|5.15.3-1": [],
+  "gunicorn|20.1.0-6": [],
+  "bareos-common|23.0.3~pre116.78e650e30-88": [],
+  "openjdk-8-jdk|8u442-b06~us1-0ubuntu1~22.04": [],
+  "okular|25.04.2": [],
+  "seabios|1.15.0-1": [],
+  "openjdk-8-jdk-headless|8u442-b06~us1-0ubuntu1~22.04": [],
+  "openjdk-21-jdk|21.0.7+6~us1-0ubuntu1~22.04": [],
+  "openjdk-21-jre|21.0.7+6~us1-0ubuntu1~22.04": [],
+  "certbot|2.11.0": [],
+  "openjdk-21-jre-headless|21.0.7+6~us1-0ubuntu1~22.04": [],
+  "ffmpeg|7:4.4.2-0ubuntu0.22.04.1": [],
+  "bareos-storage|23.0.3~pre116.78e650e30-88": [],
+  "bareos-director|23.0.3~pre116.78e650e30-88": [],
+  "php-date|1.4.7-3": [],
+  "php8.1-cli|8.1.2-1ubuntu2.17": [],
+  "bsd-mailx|8.1.2-0.20180807cvs-2build2": [],
+  "barman|2.18-1": [],
+  "apache2-data|2.4.52-1ubuntu4.9": [],
+  "thunderbird|1:115.18.0+build1-0ubuntu0.22.04.1": [],
+  "musl-dev|1.2.2-4": [],
+  "php8.1-common|8.1.2-1ubuntu2.17": [],
+  "cloud-init|24.1.3-0ubuntu1~22.04.1": [],
+  "locales-all|2.35-0ubuntu3.8": [],
+  "libreoffice7.3-debian-menus|7.3.7-2": [],
+  "libreoffice7.3-ure|7.3.7.2-2": [],
+  "code|1.94.1-1728111316": [],
+  "php8.1-opcache|8.1.2-1ubuntu2.17": [],
+  "nodejs-doc|12.22.9~dfsg-1ubuntu3.6": [],
+  "libreoffice7.3|7.3.7.2-2": [],
+  "zsh-autosuggestions|0.7.0-1": [],
+  "cloud-initramfs-copymods|0.49~24.04.1": [],
+  "zsh-syntax-highlighting|0.7.1-2": [],
+  "pgpool2|4.6.1-1.pgdg24.04+1": [],
+  "lftp|4.9.2-2ubuntu1": [],
+  "haproxy|2.8.5-1ubuntu3.3": [],
+  "mdadm|4.3-1ubuntu2.1": [],
+  "vim|2:8.2.3995-1ubuntu2.16": [],
+  "bareos-common|22.1.1~pre160.72763729a-102.el8": [],
+  "cracklib|2.9.6-15.el8": [],
+  "cpp|8.5.0-10.1.0.1.el8_6": [],
+  "unrar|1:7.0.7-1build1": [],
+  "xserver-xorg-legacy|2:21.1.4-2ubuntu1.7~22.04.13": [],
+  "firefox|132.0.1~build2": [],
+  "libreoffice7.3-dict-es|7.3.7.2-2": [],
+  "glpi-agent|1.7.1-1": [],
+  "bubblewrap|0.4.0-1.el8": [],
+  "byacc|1.9.20170709-4.el8": [],
+  "gmp|6.1.2-10.el8": [],
+  "bison|3.0.4-10.el8": [],
+  "gpgme|1.13.1-11.el8": [],
+  "gnupg2-smime|2.2.20-3.el8_6": [],
+  "ctags|5.8-22.el8": [],
+  "graphite2|1.3.10-10.el8": [],
+  "gnutls|3.6.16-5.el8_6": [],
+  "mkdocs|1.1.2+dfsg-2ubuntu1": [],
+  "helm|3.17.3-1": [],
+  "ltrace|0.7.91-28.el8": [],
+  "lua|5.3.4-12.el8": [],
+  "lcms2|2.9-2.el8": [],
+  "gnupg2|2.2.20-3.el8_6": [],
+  "openresty-openssl3|3.4.1-1~bullseye1": [],
+  "grubby|8.40-42.0.1.el8": [],
+  "dbeaver 24.0.5|24.0.5": [],
+  "gtk2|2.24.32-5.el8": [],
+  "mdadm|4.2-2.0.1.el8": [],
+  "openresty-zlib|1.3.1-1~bullseye1": [],
+  "mailcap|2.1.48-3.el8": [],
+  "glpi agent 1.9|1.9": [],
+  "mozjs60|60.9.0-4.0.1.el8": [],
+  "man-db|2.7.6.1-18.el8": [],
+  "json-c|0.13.1-3.el8": [],
+  "qemu-guest-agent|1:8.2.2+ds-0ubuntu1.7": [],
+  "networkmanager-team|1.36.0-9.0.1.el8_6": [],
+  "overlayroot|0.49~24.04.1": [],
+  "gzip|1.9-13.el8_5": [],
+  "openresty-openssl111|1.1.1w-1~bullseye1": [],
+  "mcpp|2.7.2-20.el8": [],
+  "microcode_ctl|20220207-1.20220510.1.0.1.el8_6": [],
+  "openresty-resty|1.27.1.1-1~bullseye1": [],
+  "qemu guest agent|107.0.1": [],
+  "openssh|8.0p1-13.el8": [],
+  "openldap|2.4.46-18.el8": [],
+  "networkmanager-tui|1.36.0-9.0.1.el8_6": [],
+  "btop|1.3.0-1": [],
+  "nftables|0.9.3-25.el8": [],
+  "networkmanager-initscripts-updown|1.36.0-9.0.1.el8_6": [],
+  "networkmanager|1.36.0-9.0.1.el8_6": [],
+  "outlook for windows|1.2025.312.0": [],
+  "resolver di app|10.0.19041.1023": [],
+  "mpfr|3.1.6-1.el8": [],
+  "resolver di app|10.0.19041.4239": [],
+  "libreoffice7.3-writer|7.3.7.2-2": [],
+  "openssh-clients|8.0p1-13.el8": [],
+  "oracle linux server 8.6|8.6": [],
+  "newt|0.52.20-11.el8": [],
+  "watchdog|5.16-1": [],
+  "postgresql-client-14|14.17-1.pgdg22.04+1": [],
+  "openssl|1.1.1k-7.el8_6": [],
+  "php-cli|2:8.1+92ubuntu1": [],
+  "pam|1.3.1-16.el8_6.1": [],
+  "openssl-pkcs11|0.4.10-2.el8": [],
+  "p11-kit-trust|0.23.22-1.el8": [],
+  "pango|1.42.4-8.el8": [],
+  "pcre2|10.32-3.el8_6": [],
+  "zabbix agent 2 (64-bit)|7.0.0.2400": [],
+  "pixman|0.38.4-2.el8": [],
+  "openresty-pcre2|10.44-1~bullseye1": [],
+  "pgdg-redhat-repo|42.0-38PGDG": [],
+  "oracle-epel-release-el8|1.0-5.el8": [],
+  "pcre|8.42-6.el8": [],
+  "grafana|12.0.1-01": [],
+  "python3.11-venv|3.11.2-6+deb12u5": [],
+  "quota|4.04-14.el8": [],
+  "postgresql-14|14.18-1.pgdg24.04+1": [],
+  "publicsuffix-list-dafsa|20180723-1.el8": [],
+  "protobuf-c|1.3.0-6.el8": [],
+  "platform-python-pip|9.0.3-22.el8": [],
+  "platform-python|3.6.8-47.0.1.el8_6": [],
+  "chromium|134.0.6998.88": [],
+  "postgresql14-contrib|14.5-1PGDG.rhel8": [],
+  "quota-nls|4.04-14.el8": [],
+  "rhnsd|5.0.35-3.0.1.module+el8+5192+3173336a": [],
+  "php-tidy|2:8.1+92ubuntu1": [],
+  "prefixdevname|0.1.0-6.el8": [],
+  "rpm-build|4.14.3-24.el8_6": [],
+  "redhat-release|8.6-0.1.0.1.el8": [],
+  "snappy|1.1.8-3.el8": [],
+  "rpm-sign|4.14.3-24.el8_6": [],
+  "rpcbind|1.2.5-8.el8": [],
+  "rootfiles|8.1-22.el8": [],
+  "rhn-check|2.8.16-13.0.4.module+el8.4.0+20139+94f9e265": [],
+  "rhnlib|2.8.6-8.0.1.module+el8.3.0+7814+aac1f1cb": [],
+  "slang|2.3.2-3.el8": [],
+  "valgrind-devel|3.18.1-7.el8": [],
+  "snmp|5.9.1+dfsg-1ubuntu2.6": [],
+  "source-highlight|3.1.8-17.el8": [],
+  "php8.1-tidy|8.1.2-1ubuntu2.21": [],
+  "cloud-init|25.1.2-0ubuntu0~22.04.2": [],
+  "xmlsec1-openssl|1.2.25-4.el8": [],
+  "openjdk-21-jdk-headless|21.0.7+6~us1-0ubuntu1~22.04": [],
+  "tbb|2018.2-9.el8": [],
+  "setup|2.12.2-6.el8": [],
+  "expect|5.45.4-2build1": [],
+  "sgml-common|0.6.3-50.el8": [],
+  "zlib|1.2.11-19.el8_6": [],
+  "which|2.21-17.el8": [],
+  "xz-devel|5.2.4-4.el8_6": [],
+  "docker|27.5.1": [],
+  "nfs-common|1:2.6.4-3ubuntu5.1": [],
+  "tpm2-tss|2.3.2-4.el8": [],
+  "tuned|2.18.0-2.0.1.el8_6.1": [],
+  "openjdk-17-jre|17.0.15+6~us1-0ubuntu1~22.04": [],
+  "openjdk-17-jdk-headless|17.0.15+6~us1-0ubuntu1~22.04": [],
+  "xz|5.2.4-4.el8_6": [],
+  "autocad lt 2024 - italiano (italian)|24.3.63.0": [],
+  "autocad lt private|24.3.63.0": [],
+  "openjdk-17-jre-headless|17.0.15+6~us1-0ubuntu1~22.04": [],
+  "zip|3.0-23.el8": [],
+  "redis|6:7.4.1-1rl1~jammy1": [],
+  "snmp-mibs-downloader|1.5": [],
+  "forticlient|7.0.7.0246": [],
+  "autodesk genuine service|7.3.0.222": [],
+  "openjdk-17-jdk|17.0.15+6~us1-0ubuntu1~22.04": [],
+  "brother iprint&scan|10.6.1.1": [],
+  "httptousbbridge|2.0.33.1": [],
+  "autodesk identity manager|1.10.4.0": [],
+  "php8.1-intl|8.1.2-1ubuntu2.17": [],
+  "pcfaxtx|3.7.3.1": [],
+  "mailbird|2.9.93": [],
+  "zsh-common|5.8.1-1": [],
+  "ccleaner|6.19": [],
+  "php8.1-fpm|8.1.2-1ubuntu2.21": [],
+  "php8.1-readline|8.1.2-1ubuntu2.17": [],
+  "bareos-webui|23.0.3~pre116.78e650e30-88": [],
+  "dropbox|189.4.8427": [],
+  "php-bcmath|2:8.1+92ubuntu1": [],
+  "php8.1-bcmath|8.1.2-1ubuntu2.20": [],
+  "php8.1-common|8.1.2-1ubuntu2.20": [],
+  "goto opener|1.0.562": [],
+  "pdf-xchange editor|10.0.1.371": [],
+  "php8.1-cli|8.1.2-1ubuntu2.20": [],
+  "fping|5.1-1": [],
+  "php8.1-curl|8.1.2-1ubuntu2.20": [],
+  "zsh|5.8.1-1": [],
+  "remotesetup|3.10.2.0": [],
+  "php8.1-ldap|8.1.2-1ubuntu2.20": [],
+  "php8.1-opcache|8.1.2-1ubuntu2.20": [],
+  "php8.1-mbstring|8.1.2-1ubuntu2.20": [],
+  "thehive|5.4.8-1": [],
+  "pgpgpg|0.13-9.1build1": [],
+  "zabbix-server-pgsql|1:7.2.4-1+ubuntu22.04": [],
+  "snmpd|5.9.1+dfsg-1ubuntu2.7": [],
+  "php8.1-pgsql|8.1.2-1ubuntu2.20": [],
+  "php8.1-readline|8.1.2-1ubuntu2.20": [],
+  "lp-solve|5.5.2.5-2": [],
+  "tesseract-ocr|5.3.0-2": [],
+  "unpaper|7.0.0-0.1": [],
+  "zabbix-agent2-dbgsym|1:7.2.5-1+ubuntu22.04": [],
+  "gssproxy|0.8.0-20.el8": [],
+  "zulu17-ca-doc|17.0.14-1": [],
+  "ocl-icd-libopencl1|2.3.1-1": [],
+  "php8.1-curl|8.1.2-1ubuntu2.17": [],
+  "isl|0.16.1-6.el8": [],
+  "ocrmypdf|14.0.1+dfsg1-1": [],
+  "zulu17-doc|17.0.14-1": [],
+  "cracklib-dicts|2.9.6-15.el8": [],
+  "pngquant|2.17.0-1": [],
+  "zulu17-ca-jdk-headless|17.0.14-1": [],
+  "xkb-data|2.35.1-1": [],
+  "zulu17-jre-headless|17.0.14-1": [],
+  "zulu17-ca-jdk|17.0.14-1": [],
+  "php8.1-fpm|8.1.2-1ubuntu2.17": [],
+  "git|2.31.1-2.el8": [],
+  "nodejs|22.14.0-1nodesource1": [],
+  "zulu17-ca-jre-headless|17.0.14-1": [],
+  "google chrome|137.0.7151.120": [],
+  "guile|2.0.14-7.0.1.el8": [],
+  "zutty|0.14.0.20230218+dfsg1-1": [],
+  "dbeaver 24.1.1|24.1.1": [],
+  "npgsql 3.2.6|3.2.6-3": [],
+  "outlook for windows|1.2025.604.0": [],
+  "graphviz|2.40.1-43.el8": [],
+  "wazuh-dashboard|4.12.0-1": [],
+  "zabbix-agent2|1:7.0.12-1+ubuntu22.04": [],
+  "forticlient vpn|7.4.0.1658": [],
+  "gsasl-common|1.10.0-5": [],
+  "wazuh-manager|4.12.0-1": [],
+  "openjpeg2|2.4.0-4.el8": [],
+  "oracle data provider for .net help|10.2.020": [],
+  "docker|1.5-2": [],
+  "cyrus-sasl-lib|2.1.27-6.el8_5": [],
+  "firewalld|0.9.3-13.0.1.el8": [],
+  "gc|7.6.4-3.el8": [],
+  "tortoisesvn 1.14.7.29687 (64 bit)|1.14.29687": [],
+  "psqlodbc 13.02.0000|13.02.0000-1": [],
+  "postman x86_64 11.3.0|11.3.0": [],
+  "filebeat|7.10.2-1": [],
+  "wazuh-indexer|4.12.0-1": [],
+  "pesign|0.112-26.0.1.el8": [],
+  "java-1.8.0-openjdk-headless|1.8.0.352.b08-2.el8_6": [],
+  "gcc|8.5.0-10.1.0.1.el8_6": [],
+  "librepo|1.14.2-1.el8": [],
+  "postgresql14|14.5-1PGDG.rhel8": [],
+  "polkit|0.115-13.0.1.el8_5.2": [],
+  "procps-ng|3.3.15-6.0.1.el8": [],
+  "jna|4.5.1-5.el8": [],
+  "polkit-pkla-compat|0.1-12.el8": [],
+  "openssh-server|8.0p1-13.el8": [],
+  "kibana|8.17.4": [],
+  "unzip|6.0-46.0.1.el8": [],
+  "redis-server|6:7.4.1-1rl1~jammy1": [],
+  "popt|1.18-1.el8": [],
+  "readline|7.0-10.el8": [],
+  "postgresql14-server|14.5-1PGDG.rhel8": [],
+  "google chrome|120.0.6099.130": [],
+  "strace|5.13-4.el8": [],
+  "php8.1-gd|8.1.2-1ubuntu2.20": [],
+  "rhn-setup|2.8.16-13.0.4.module+el8.4.0+20139+94f9e265": [],
+  "xmlsec1|1.2.25-4.el8": [],
+  "librist4|0.2.7+dfsg-1": [],
+  "valgrind|3.18.1-7.el8": [],
+  "php8.1-xml|8.1.2-1ubuntu2.20": [],
+  "virt-what|1.18-13.el8": [],
+  "xml-common|0.6.3-50.el8": [],
+  "coinor-libosi1v5|0.108.6+repack1-2": [],
+  "zlib-devel|1.2.11-19.el8_6": [],
+  "at-spi2-common|2.46.0-5": [],
+  "yum|4.7.0-8.0.1.el8": [],
+  "autodesk autocad lt 2024 - italiano (italian)|24.3.63.0": [],
+  "pc-faxreceive|1.8.003.0": [],
+  "postgresql-16|16.8-1.pgdg22.04+1": [],
+  "postgresql-client-16|16.8-1.pgdg22.04+1": [],
+  "zabbix-sql-scripts|1:7.2.4-1+ubuntu22.04": [],
+  "statusmonitor|1.32.1.0": [],
+  "zulu17-jdk|17.0.14-1": [],
+  "php-ldap|2:8.1+92ubuntu1": [],
+  "glpi agent 1.7|1.7": [],
+  "zulu-repo|1.0.0-3": [],
+  "zulu17-ca-jre|17.0.14-1": [],
+  "zulu17-jre|17.0.14-1": [],
+  "imagemagick-6-common|8:6.9.11.60+dfsg-1.6+deb12u2": [],
+  "ghostscript|10.0.0~dfsg-11+deb12u7": [],
+  "ems sql backup|3.1.5.10380": [],
+  "docker.io|26.1.3-0ubuntu1~22.04.1": [],
+  "java-common|0.74": [],
+  "librevenge-0.0-0|0.0.5-3": [],
+  "runsc|20250326.0": [],
+  "wmdocker|1.5-2": [],
+  "pgjdbc 42.7.2|42.7.2-1": [],
+  "postgresql 16|16.3-2": []
+}
