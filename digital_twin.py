@@ -12,23 +12,31 @@ import nest_asyncio
 
 # --- CLASSI ASSET (Invariate) ---
 class Asset:
-    def __init__(self, name, **kwargs): self.name = name; self.attributes = kwargs
-    def __repr__(self): return f"{self.__class__.__name__}(name='{self.name}')"
+    def __init__(self, name, **kwargs): 
+        self.name = name; 
+        self.attributes = kwargs
+
+    def __repr__(self): 
+        return f"{self.__class__.__name__}(name='{self.name}')"
 
 class Host(Asset):
-    def __init__(self, name, **kwargs): super().__init__(name, **kwargs)
+    def __init__(self, name, **kwargs): 
+        super().__init__(name, **kwargs)
+        self.asset_score = kwargs.get('asset_score', 0.0)
 
 class Software(Asset):
     def __init__(self, name, **kwargs):
         super().__init__(name, **kwargs)
         self.base_name = kwargs.get('base_name')
         self.version = kwargs.get('version')
+        self.score = kwargs.get('score', 0.0)
 
 class VirtualMachine(Host): pass
 
 class CVEEnricher:
-    def __init__(self, graph, api_key=None, cache_file='cve_cache.json'):
-        self.graph = graph
+    def __init__(self, dt, api_key=None, cache_file='cve_cache.json'):
+        self.graph = dt.graph
+        self.assets = dt.assets
         self.api_key = api_key
         self.cache_file = cache_file
         self.cve_cache = self._load_cache()
@@ -114,7 +122,10 @@ class CVEEnricher:
                 if vulnerabilities:
                     self.graph.nodes[node_name]['vulnerabilities'] = vulnerabilities
                     scores = [v['score'] for v in vulnerabilities if v['score'] >= 0]
-                    self.graph.nodes[node_name]['max_cvss'] = max(scores) if scores else 0.0
+                    max_score = max(scores) if scores else 0.0
+                    self.graph.nodes[node_name]['max_cvss'] = max_score
+                    self.assets[node_name].score = max_score
+                    
         
         self._save_cache()
         print("✅ Arricchimento dati CVE completato.")
@@ -122,11 +133,18 @@ class CVEEnricher:
 
 # --- CLASSE DIGITALTWIN E ALTRE FUNZIONI (Invariate) ---
 class DigitalTwin:
+
+    K = 0.05
+
     def __init__(self):
-        self.graph = nx.DiGraph(); self.assets = {}; self.discovered_subnets = []
+        self.graph = nx.DiGraph(); 
+        self.assets = {}; 
+        self.discovered_subnets = []
+
     def _parse_multiline_data(self, data: str):
         if not isinstance(data, str): return []
         return [item.strip() for item in data.split('<br>') if item.strip()]
+
     def _parse_software_data(self, data: str):
         if not isinstance(data, str): return []
         lines = self._parse_multiline_data(data)
@@ -135,6 +153,7 @@ class DigitalTwin:
             parts = line.rsplit(' - ', 1)
             if len(parts) == 2: software_list.append({'name': parts[0].strip(), 'version': parts[1].strip()})
         return software_list
+    
     def _discover_subnets_from_rows(self, all_rows):
         print("🔎 Inizio scoperta automatica delle sottoreti...")
         subnet_prefixes = set()
@@ -149,6 +168,7 @@ class DigitalTwin:
         self.discovered_subnets = [ipaddress.ip_network(f"{prefix}.0/24") for prefix in sorted(list(subnet_prefixes))]
         print(f"✅ Sottoreti scoperte: {len(self.discovered_subnets)}")
         for subnet in self.discovered_subnets: print(f"  -> {subnet}")
+
     def _get_subnet_for_ips(self, ips):
         for ip_str in ips:
             try:
@@ -157,12 +177,31 @@ class DigitalTwin:
                     if ip_addr in subnet: return str(subnet)
             except ValueError: continue
         return 'Unknown/External'
+    
     def _add_or_get_asset(self, name, asset_class, **kwargs):
         if name not in self.assets:
             self.assets[name] = asset_class(name, **kwargs)
             self.graph.add_node(name, type=asset_class.__name__, **kwargs)
         elif kwargs: nx.set_node_attributes(self.graph, {name: kwargs})
         return self.assets[name]
+    
+    def update_asset_scores(self):
+        for name, asset in self.assets.items():
+            if isinstance(asset, Host): 
+                host_score = 0.0
+                if name not in self.graph: continue
+                software_scores = []
+                for _, neighbor, label in self.graph.edges(name, data=True):
+                    if label.get('relationship') == 'INSTALLS':
+                        attributes = self.graph.nodes[neighbor]
+                        if attributes.get('type') == 'Software' :
+                            sw_score = float(attributes.get('max_cvss', 0.0))
+                            software_scores.append(sw_score)
+                if software_scores:
+                    host_score = max(software_scores) + self.K * sum(software_scores)
+                self.assets[name].asset_score = host_score 
+                self.graph.nodes[name]['asset_score'] = host_score
+
     def load_from_csv(self, file_path, delimiter=';'):
         print(f"📄 Inizio lettura e analisi del file: {file_path}")
         with open(file_path, mode='r', encoding='utf-8-sig') as infile:
@@ -185,7 +224,9 @@ class DigitalTwin:
                 self._add_or_get_asset(sw_unique_name, Software, base_name=sw['name'], version=sw['version'])
                 self.graph.add_edge(host_name, sw_unique_name, relationship='INSTALLS')
         print("✅ Grafo principale costruito con successo.")
+
     def get_graph(self): return self.graph
+
     def get_summary(self):
         if not self.graph: return
         node_types = nx.get_node_attributes(self.graph, 'type')
@@ -197,6 +238,7 @@ class DigitalTwin:
         for n_type, count in sorted(type_counts.items()): print(f"  - {n_type}: {count}")
         print(f"Vulnerabilità Totali Rilevate: {total_vulns}")
         print("----------------------------------------\n")
+
     def _get_color_by_vulnerability(self, node_data):
         max_score = node_data.get('max_cvss', -1)
         if max_score >= 9.0: return '#6a0dad' # Viola
@@ -204,6 +246,7 @@ class DigitalTwin:
         if max_score >= 4.0: return '#ffa500' # Arancione
         if max_score >= 0.1: return '#ffff00' # Giallo
         return '#808080' # Grigio per software senza CVE note
+    
     def visualize_by_subnet(self):
         print("\n🎨 Suddivisione del grafo per sottorete...")
         subnets_map = defaultdict(list)
@@ -216,6 +259,7 @@ class DigitalTwin:
             for host in hosts_in_subnet: all_nodes_for_subnet.update(self.graph.successors(host))
             subnet_graph = self.graph.subgraph(all_nodes_for_subnet)
             self._visualize_graph(subnet_graph, f"Digital Twin - Sottorete: {subnet_name}")
+            
     def _visualize_graph(self, G, title):
         if not G.nodes(): return
         print(f"  - Visualizzazione di '{title.split(': ')[1]}' ({G.number_of_nodes()} nodi)")
@@ -237,8 +281,11 @@ if __name__ == "__main__":
     dt = DigitalTwin()
     dt.load_from_csv('glpi.csv')
     
-    enricher = CVEEnricher(dt.get_graph(), api_key=NVD_API_KEY)
+    # enricher = CVEEnricher(dt.get_graph(), api_key=NVD_API_KEY)
+    enricher = CVEEnricher(dt, api_key = NVD_API_KEY)
     asyncio.run(enricher.run_enrichment())
+
+    dt.update_asset_scores()
     
     dt.get_summary()
     dt.visualize_by_subnet()
