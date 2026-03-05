@@ -34,7 +34,7 @@ class Software(Asset):
 class VirtualMachine(Host): pass
 
 class CVEEnricher:
-    def __init__(self, dt, api_key=None, cache_file='cve_cache.json'):
+    def __init__(self, dt, api_key=None, cache_file='data/cve_cache.json'):
         self.graph = dt.graph
         self.assets = dt.assets
         self.api_key = api_key
@@ -272,20 +272,3 @@ class DigitalTwin:
         nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='darkred', font_size=7)
         plt.title(title, size=28)
         plt.show()
-
-# --- ESECUZIONE PRINCIPALE OTTIMIZZATA ---
-if __name__ == "__main__":
-    nest_asyncio.apply()
-    NVD_API_KEY = os.getenv("NVD_API_KEY")
-    
-    dt = DigitalTwin()
-    dt.load_from_csv('glpi.csv')
-    
-    # enricher = CVEEnricher(dt.get_graph(), api_key=NVD_API_KEY)
-    enricher = CVEEnricher(dt, api_key = NVD_API_KEY)
-    asyncio.run(enricher.run_enrichment())
-
-    dt.update_asset_scores()
-    
-    dt.get_summary()
-    dt.visualize_by_subnet()
