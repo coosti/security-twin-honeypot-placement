@@ -33,6 +33,10 @@ class Software(Asset):
 
 class VirtualMachine(Host): pass
 
+class Router(Asset):
+    def __init__(self, name, **kwargs):
+        super().__init__(name, **kwargs)
+
 class CVEEnricher:
     def __init__(self, dt, api_key=None, cache_file='data/cve_cache.json'):
         self.graph = dt.graph
@@ -202,6 +206,25 @@ class DigitalTwin:
                 self.assets[name].asset_score = host_score 
                 self.graph.nodes[name]['asset_score'] = host_score
 
+    def add_routers(self):
+        subnets_map = self.get_subnets()
+        r = 1
+        main_router = "Router_0"
+        self._add_or_get_asset(main_router, Router, asset_score=10.0)
+        # add gateway for every subnet
+        for subnet, hosts in subnets_map.items():
+            router_name = f"Router_{r}"
+            self._add_or_get_asset(router_name, Router, asset_score=10.0, subnet=subnet)
+        
+            for host in hosts:
+                self.graph.add_edge(router_name, host, relationship='GATEWAY')
+                self.graph.add_edge(host, router_name, relationship='GATEWAY')
+
+            self.graph.add_edge(router_name, main_router, relationship="ROUTER")
+            self.graph.add_edge(main_router, router_name, relationship="ROUTER")
+
+            r += 1
+
     def load_from_csv(self, file_path, delimiter=';'):
         print(f"📄 Inizio lettura e analisi del file: {file_path}")
         with open(file_path, mode='r', encoding='utf-8-sig') as infile:
@@ -247,18 +270,30 @@ class DigitalTwin:
         if max_score >= 0.1: return '#ffff00' # Giallo
         return '#808080' # Grigio per software senza CVE note
     
-    def visualize_by_subnet(self):
-        print("\n🎨 Suddivisione del grafo per sottorete...")
+    def get_subnets(self):
         subnets_map = defaultdict(list)
         for node, data in self.graph.nodes(data=True):
             if data.get('subnet') and data.get('type') in ['Host', 'VirtualMachine']:
                  subnets_map[data['subnet']].append(node)
+
+        # print("\n valid subnets map:")
+        # for subnet, hosts in subnets_map.items():
+            # print(f"subnet: {subnet} -> {len(hosts)} hosts")
+            # print(f"   nodes: {hosts[:3]}") 
+        # print("-" * 40 + "\n")
+
+        return subnets_map
+    
+    def visualize_by_subnet(self):
+        print("\n🎨 Suddivisione del grafo per sottorete...")
+        subnets_map = self.get_subnets()
+
         print(f"Trovati {len(subnets_map)} gruppi di sottoreti. Generazione dei grafi...")
         for subnet_name, hosts_in_subnet in sorted(subnets_map.items()):
             all_nodes_for_subnet = set(hosts_in_subnet)
             for host in hosts_in_subnet: all_nodes_for_subnet.update(self.graph.successors(host))
             subnet_graph = self.graph.subgraph(all_nodes_for_subnet)
-            self._visualize_graph(subnet_graph, f"Digital Twin - Sottorete: {subnet_name}")
+            # self._visualize_graph(subnet_graph, f"Digital Twin - Sottorete: {subnet_name}")
             
     def _visualize_graph(self, G, title):
         if not G.nodes(): return

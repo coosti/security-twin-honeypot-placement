@@ -17,9 +17,13 @@ def main():
     asyncio.run(enricher.run_enrichment())
 
     dt.update_asset_scores()
+
+    dt.add_routers()
     
     dt.get_summary()
     dt.visualize_by_subnet()
+
+
 
 if __name__ == "__main__":
     main()
