@@ -3,7 +3,7 @@ import os
 import nest_asyncio
 
 from digital_twin import DigitalTwin, CVEEnricher
-
+import lateral_movement
 
 def main():
     nest_asyncio.apply()

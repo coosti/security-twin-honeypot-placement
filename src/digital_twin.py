@@ -8,9 +8,8 @@ import json
 import os
 import asyncio
 import aiohttp
-import nest_asyncio
 
-# --- CLASSI ASSET (Invariate) ---
+# --- ASSET CLASSES ---
 class Asset:
     def __init__(self, name, **kwargs): 
         self.name = name; 
@@ -57,7 +56,6 @@ class CVEEnricher:
     def _normalize_sw_name(self, name):
         return name.split('-')[0]
 
-    # *** METHOD RESTORED HERE ***
     async def _fetch_cve(self, session, sw_name, clean_version, original_key):
         """Executes a single asynchronous request to the NVD API."""
         if original_key in self.cve_cache:
@@ -135,7 +133,7 @@ class CVEEnricher:
         print("✅ Arricchimento dati CVE completato.")
 
 
-# --- CLASSE DIGITALTWIN E ALTRE FUNZIONI (Invariate) ---
+# --- DIGITAL TWIN CLASS ---
 class DigitalTwin:
 
     K = 0.05
