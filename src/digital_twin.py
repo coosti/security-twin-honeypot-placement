@@ -135,9 +135,7 @@ class CVEEnricher:
 
 # --- DIGITAL TWIN CLASS ---
 class DigitalTwin:
-
-    K = 0.05
-
+    
     def __init__(self):
         self.graph = nx.DiGraph(); 
         self.assets = {}; 
@@ -200,7 +198,7 @@ class DigitalTwin:
                             sw_score = float(attributes.get('max_cvss', 0.0))
                             software_scores.append(sw_score)
                 if software_scores:
-                    host_score = max(software_scores) + self.K * sum(software_scores)
+                    host_score = max(software_scores) # + self.K * sum(software_scores)
                 self.assets[name].asset_score = host_score 
                 self.graph.nodes[name]['asset_score'] = host_score
 
