@@ -185,7 +185,7 @@ class DigitalTwin:
         elif kwargs: nx.set_node_attributes(self.graph, {name: kwargs})
         return self.assets[name]
     
-    def update_asset_scores(self):
+    def asset_score_calculator(self):
         for name, asset in self.assets.items():
             if isinstance(asset, Host): 
                 host_score = 0.0
@@ -201,7 +201,22 @@ class DigitalTwin:
                     host_score = max(software_scores) # + self.K * sum(software_scores)
                 self.assets[name].asset_score = host_score 
                 self.graph.nodes[name]['asset_score'] = host_score
+    
+    def subnet_score_calculator(self, subnets_map, subnet_ip):
+        hosts_scores = []
 
+        for host_name in subnets_map[subnet_ip]:
+            host = self.assets[host_name]
+            if isinstance(host, Host):
+                hosts_scores.append(host.asset_score)
+
+        if hosts_scores:
+            max_score = max(hosts_scores)
+        else:
+            max_score = 0.0
+        
+        return max_score
+    
     def add_routers(self):
         subnets_map = self.get_subnets()
         r = 1
@@ -210,7 +225,8 @@ class DigitalTwin:
         # add gateway for every subnet
         for subnet, hosts in subnets_map.items():
             router_name = f"Router_{r}"
-            self._add_or_get_asset(router_name, Router, asset_score=10.0, subnet=subnet)
+            gateway_score = self.subnet_score_calculator(subnets_map, subnet)
+            self._add_or_get_asset(router_name, Router, asset_score=gateway_score, subnet=subnet)
         
             for host in hosts:
                 self.graph.add_edge(router_name, host, relationship='GATEWAY')
