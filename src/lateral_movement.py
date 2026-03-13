@@ -206,15 +206,23 @@ class LateralMovement:
                 main_router = self.router_hop(current_node)
 
                 # chose next subnet
-                next_node = self.subnet_choice(main_router, visited_nodes)
+                next_gateway = self.subnet_choice(main_router, visited_nodes)
 
                 # no more subnets to visit
-                if next_node is None:
+                if next_gateway is None:
                     break
 
-                visited_nodes.add(next_node)
+                visited_nodes.add(next_gateway)
 
-                current_node = next_node
+                current_node = next_gateway
+
+                next_node = self.neighbor_choice(current_node, visited_nodes)
+
+                if next_node is None:
+                    current_node = next_gateway
+                else:
+                    visited_nodes.add(next_node)
+                    current_node = next_node
 
             # current node is host/vm
             elif self.graph.nodes[current_node].get('type') in ['Host', 'VirtualMachine']:
@@ -234,5 +242,75 @@ class LateralMovement:
                     visited_nodes.add(next_node)
 
                     current_node = next_node
+
+        return visited_nodes
+    
+
+    def graph_visit(self):
+
+        visited_nodes = set()
+
+        # first steps
+        entry_point = self.initial_access()
+
+        visited_nodes.add(entry_point)
+
+        current_node = entry_point
+
+        while True:
+
+            if current_node is None:
+                break
+
+            # current node is gateway
+            if self.graph.nodes[current_node].get('type') == 'Router':
+
+                # check if there are any visitable nodes
+                next_node = self.neighbor_choice(current_node, visited_nodes)
+
+                # new asset found
+                if next_node is not None:
+                    visited_nodes.add(next_node)
+                    current_node = next_node
+                else:
+                    # exit from the subnet and go to main router
+                    main_router = self.router_hop(current_node)
+
+                    if main_router is None:
+                        break
+
+                    # chose next subnet
+                    next_gateway = self.subnet_choice(main_router, visited_nodes)
+
+                    # no more subnets to visit
+                    if next_gateway is None:
+                        break
+
+                    visited_nodes.add(next_gateway)
+
+                    current_node = next_gateway
+
+            # current node is host/vm
+            elif self.graph.nodes[current_node].get('type') in ['Host', 'VirtualMachine']:
+
+                next_node = self.neighbor_choice(current_node, visited_nodes)
+
+                # max score too low or no more neighbors 
+                if next_node is None:
+                    # exit from current subnet
+                    gateway_node = self.router_hop(current_node)
+
+                    if gateway_node is not None:
+                        visited_nodes.add(gateway_node)
+                        current_node = gateway_node
+                    else:
+                        break
+                else:  
+                    # pick next asset
+                    visited_nodes.add(next_node)
+
+                    current_node = next_node
+            else:
+                break
 
         return visited_nodes
