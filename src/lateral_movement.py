@@ -36,7 +36,7 @@ class LateralMovement:
 
         # pick hosts asset scores
         for n, data in self.graph.nodes(data = True):
-            if n in valid_assets and data.get('asset_score', 0.0) > 0:
+            if n in valid_assets and data.get('type') in ['Host', 'VirtualMachine']: #and data.get('asset_score', 0.0) > 0:
                 score = data.get('asset_score', 0.0)
                 assets_scores.append(score)
 
