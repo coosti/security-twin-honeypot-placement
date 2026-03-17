@@ -1,4 +1,5 @@
 import random
+import networkx as nx
 
 from digital_twin import *
 from lateral_movement import *
@@ -28,6 +29,8 @@ class Honeypot:
         for router, data in self.graph.nodes(data = True):
             if data.get('type') == 'Router' and router != 'Router_0':
                 assets.append(router)
+
+        return assets
 
     def initialize_honeypots(self):
 
@@ -59,7 +62,7 @@ class Honeypot:
 
         for n in self.assets:
 
-            score = self.graph.nodes[n].get('asset_score')
+            score = self.graph.nodes[n].get('asset_score', 0.0)
 
             if score > 0:
 
@@ -74,6 +77,34 @@ class Honeypot:
         sorted_assets.sort(key=lambda x: (x[1], x[2]), reverse=True)
 
         chosen_assets = [x[0] for x in sorted_assets[:self.num_honeypots]]
+
+        for asset in chosen_assets:
+            self.graph.nodes[asset]['is_honeypot'] = True
+
+        return chosen_assets
+
+    # pick n most critical assets
+    def critical_nodes_strategy(self, compromised_nodes):
+
+        self.initialize_honeypots()
+
+        # betweenness centrality values for every node
+        bc_values = nx.betweenness_centrality(self.graph)
+
+        # compromised nodes as dict already sorted
+
+        critical_assets = []
+
+        for n in compromised_nodes:
+
+            asset_bc = bc_values.get(n, 0.0)
+
+            critical_assets.append((n, compromised_nodes[n], asset_bc))
+
+        # in case of counter equality order by betweenness centrality
+        critical_assets.sort(key=lambda x: (x[1], x[2]), reverse=True)
+
+        chosen_assets = [x[0] for x in critical_assets[:self.num_honeypots]]
 
         for asset in chosen_assets:
             self.graph.nodes[asset]['is_honeypot'] = True
