@@ -237,6 +237,20 @@ class DigitalTwin:
 
             r += 1
 
+    def initialize_assets(self):
+        assets = []
+
+        for hosts in self.subnets_map.values():
+            for asset in hosts:
+                assets.append(asset)
+
+        # include routers
+        for router, data in self.graph.nodes(data = True):
+            if data.get('type') == 'Router' and router != 'Router_0':
+                assets.append(router)
+
+        return assets
+
     def load_from_csv(self, file_path, delimiter=';'):
         print(f"📄 Inizio lettura e analisi del file: {file_path}")
         with open(file_path, mode='r', encoding='utf-8-sig') as infile:
@@ -284,6 +298,7 @@ class DigitalTwin:
     
     def get_subnets(self):
         subnets_map = defaultdict(list)
+        
         for node, data in self.graph.nodes(data=True):
             if data.get('subnet') and data.get('type') in ['Host', 'VirtualMachine']:
                  subnets_map[data['subnet']].append(node)
@@ -295,6 +310,15 @@ class DigitalTwin:
         # print("-" * 40 + "\n")
 
         return subnets_map
+    
+    def get_routers(self):
+        routers = []
+
+        for router, data in self.graph.nodes(data = True):
+            if data.get('type') == 'Router' and router != 'Router_0':
+                routers.append(router)
+        
+        return routers
     
     def visualize_by_subnet(self):
         print("\n🎨 Suddivisione del grafo per sottorete...")

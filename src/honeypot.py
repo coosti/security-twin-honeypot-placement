@@ -1,4 +1,5 @@
 import random
+import math
 import networkx as nx
 
 from digital_twin import *
@@ -11,26 +12,31 @@ class Honeypot:
         self.dt = dt
         self.graph = dt.graph
         self.subnets_map = dt.get_subnets()
+        self.routers_list = dt.get_routers()
 
-        self.num_honeypots = num_honeypots
+        self.num_honeypots = self.validate_num_honeypot(num_honeypots)
 
-        self.assets = self.initialize_assets()
+        self.assets = self.dt.initialize_assets()
+
+        # betweenness centrality values for every node
+        self.bc_values = nx.betweenness_centrality(self.graph)
 
         self.initialize_honeypots()
 
-    def initialize_assets(self):
-        assets = []
+    def validate_num_honeypot(self, num_honeypots):
+        subnets = len(self.subnets_map)
 
-        for hosts in self.subnets_map.values():
-            for asset in hosts:
-                assets.append(asset)
+        routers = len(self.routers_list)
+        
+        max_subnets = max(1, int(subnets * 0.20)) if subnets > 0 else 0
 
-        # include routers
-        for router, data in self.graph.nodes(data = True):
-            if data.get('type') == 'Router' and router != 'Router_0':
-                assets.append(router)
+        max_routers = max(1, int(routers * 0.20)) if routers > 0 else 0
 
-        return assets
+        # number of honeypots must be lower than 20% of number of subnet + 20% of number of routers
+        if num_honeypots <= max_subnets + max_routers:
+            return num_honeypots
+        else:
+            return max_subnets + max_routers
 
     def initialize_honeypots(self):
 
@@ -71,7 +77,7 @@ class Honeypot:
                 
                 sorted_assets.append((n, score, attack_surface))
 
-        # check empty list case 
+        # check empty list case
         
         # in case of asset score equality order by attack surface
         sorted_assets.sort(key=lambda x: (x[1], x[2]), reverse=True)
@@ -88,16 +94,13 @@ class Honeypot:
 
         self.initialize_honeypots()
 
-        # betweenness centrality values for every node
-        bc_values = nx.betweenness_centrality(self.graph)
-
         # compromised nodes as dict already sorted
 
         critical_assets = []
 
         for n in compromised_nodes:
 
-            asset_bc = bc_values.get(n, 0.0)
+            asset_bc = self.bc_values.get(n, 0.0)
 
             critical_assets.append((n, compromised_nodes[n], asset_bc))
 
@@ -105,6 +108,73 @@ class Honeypot:
         critical_assets.sort(key=lambda x: (x[1], x[2]), reverse=True)
 
         chosen_assets = [x[0] for x in critical_assets[:self.num_honeypots]]
+
+        for asset in chosen_assets:
+            self.graph.nodes[asset]['is_honeypot'] = True
+
+        return chosen_assets
+    
+    # place honeypots on gateways (external coverage) and on hosts (internal coverage)
+    def architectural_strategy(self):
+
+        self.initialize_honeypots()
+
+        router_honeypots = math.ceil(self.num_honeypots / 2)
+
+        subnet_honeypots = math.floor(self.num_honeypots / 2)
+
+        chosen_subnets = set()
+
+        # pick n routers to place honeypots on
+
+        # use betweenness centrality values
+        sorted_routers = sorted(self.routers_list, key=lambda r: self.bc_values.get(r, 0.0), reverse=True)
+
+        chosen_routers = [r for r in sorted_routers[:router_honeypots]]
+
+        # add ips of chosen subnets to the set
+
+        for r in chosen_routers:
+            ip = self.graph.nodes[r].get('subnet')
+            
+            if ip:
+                chosen_subnets.add(ip)
+
+        # pick m assets to place honeypots on
+
+        sorted_hosts = []
+
+        # leave routers out
+        for n in self.assets:
+            
+            if self.graph.nodes[n].get('type') != 'Router' and self.graph.nodes[n].get('subnet') not in chosen_subnets:
+
+                score = self.graph.nodes[n].get('asset_score', 0.0)
+
+                if score > 0:
+
+                    sorted_hosts.append((n, score))
+
+        # use asset score values
+        sorted_hosts.sort(key=lambda x: x[1], reverse=True)
+
+        chosen_hosts = []
+
+        for n, score in sorted_hosts:
+
+            if len(chosen_hosts) == subnet_honeypots:
+                break
+
+            ip = self.graph.nodes[n].get('subnet')
+
+            if ip not in chosen_subnets:
+
+                chosen_hosts.append(n)
+
+                chosen_subnets.add(ip)
+
+        
+        chosen_assets = chosen_routers + chosen_hosts
 
         for asset in chosen_assets:
             self.graph.nodes[asset]['is_honeypot'] = True
