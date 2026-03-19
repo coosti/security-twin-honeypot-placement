@@ -28,11 +28,11 @@ class Honeypot:
 
         routers = len(self.routers_list)
         
-        max_subnets = max(1, int(subnets * 0.20)) if subnets > 0 else 0
+        max_subnets = max(1, math.ceil(subnets * 0.25)) if subnets > 0 else 0
 
-        max_routers = max(1, int(routers * 0.20)) if routers > 0 else 0
+        max_routers = max(1, math.ceil(routers * 0.25)) if routers > 0 else 0
 
-        # number of honeypots must be lower than 20% of number of subnet + 20% of number of routers
+        # number of honeypots must be lower than 25% of number of subnet + 25% of number of routers
         if num_honeypots <= max_subnets + max_routers:
             return num_honeypots
         else:

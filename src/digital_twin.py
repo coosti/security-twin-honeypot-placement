@@ -240,7 +240,9 @@ class DigitalTwin:
     def initialize_assets(self):
         assets = []
 
-        for hosts in self.subnets_map.values():
+        subnets_map = self.get_subnets()
+
+        for hosts in subnets_map.values():
             for asset in hosts:
                 assets.append(asset)
 
@@ -298,7 +300,7 @@ class DigitalTwin:
     
     def get_subnets(self):
         subnets_map = defaultdict(list)
-        
+
         for node, data in self.graph.nodes(data=True):
             if data.get('subnet') and data.get('type') in ['Host', 'VirtualMachine']:
                  subnets_map[data['subnet']].append(node)
