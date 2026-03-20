@@ -38,6 +38,9 @@ class AttackSimulator:
             if self.graph.nodes[n].get('type') != 'Router':
                 vulnerable_hosts.append(n)
 
+        if not vulnerable_hosts:
+            return None
+
         # chosen host is a random one bewteen all hosts
         entry_point = random.choice(vulnerable_hosts)
 
@@ -148,5 +151,99 @@ class AttackSimulator:
                     current_node = next_node
             else:
                 break
+
+        return visited_nodes
+
+    def target_choice(self):
+
+        sorted_targets = []
+
+        for n in self.assets:
+            score = self.graph.nodes[n].get('asset_score', 0.0)
+            asset_type = self.graph.nodes[n].get('type')
+
+            # chose target node between critical assets
+            if score > 0 and asset_type != 'Router':
+                num_vulnerabilities = 0
+
+                for sw in self.graph.successors(n):
+                    if self.graph.nodes[sw].get('type') == 'Software' and self.graph.nodes[sw].get('max_cvss', 0.0) >= 9.0:
+
+                        vulnerabilities = self.graph.nodes[sw].get('vulnerabilities', [])
+
+                        num_vulnerabilities += sum(1 for v in vulnerabilities
+                                                  if v['score'] >= 9.0)
+                
+                sorted_targets.append((n, score, num_vulnerabilities))
+        
+        # in case of asset score equality order by total number of critical vulnerabilities
+        sorted_targets.sort(key=lambda x: (x[1], x[2]), reverse=True)
+
+        if not sorted_targets:
+            return None
+
+        # pick name of chosen node
+        target = sorted_targets[0][0]
+
+        return target
+
+    def targeted_initial_access(self, target):
+
+        vulnerable_hosts = []
+
+        for n in self.assets:
+            asset_type = self.graph.nodes[n].get('type')
+            score = self.graph.nodes[n].get('asset_score', 0.0)
+
+            # chose entry point between medium/high assets
+            if asset_type != 'Router' and n != target and 7.0 <= score <= 9.0:
+
+                attack_surface = sum(1 for sw in self.graph.successors(n)
+                                        if self.graph.nodes[sw].get('type') == 'Software' and self.graph.nodes[sw].get('max_cvss', 0.0) > 4.0)
+                
+                vulnerable_hosts.append((n, score, attack_surface))
+
+        if vulnerable_hosts:
+            # in case of score equality chose by attack surface
+            vulnerable_hosts.sort(key=lambda x: (x[1], x[2]), reverse=True)
+                
+            entry_point = vulnerable_hosts[0][0]
+
+            return entry_point
+        else:
+            # in case of no medium/high assets in the network chose between critical assets
+            max_vulnerable_hosts = []
+
+            for n in self.assets:
+                if self.graph.nodes[n].get('type') != 'Router' and n != target:
+                    max_vulnerable_hosts.append((n, self.graph.nodes[n].get('asset_score')))
+
+            if not max_vulnerable_hosts:
+                return None
+
+            max_vulnerable_hosts.sort(key=lambda x: x[1], reverse=True)
+
+            return max_vulnerable_hosts[0][0]
+
+        
+    def targeted_attack(self):
+
+        visited_nodes = []
+
+        target = self.target_choice()
+
+        if not target:
+            return []
+
+        entry_point = self.targeted_initial_access(target)
+
+        if not entry_point:
+            return []
+
+        # attacker moves on shortest path between entry point and chosen target
+        try:
+            visited_nodes = nx.shortest_path(self.graph, entry_point, target)
+        except nx.NetworkXNoPath:
+            visited_nodes = [entry_point]
 
         return visited_nodes
