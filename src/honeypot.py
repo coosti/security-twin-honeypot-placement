@@ -8,7 +8,7 @@ from lateral_movement import *
 # --- HONEYPOT CLASS ---
 
 class Honeypot:
-    def __init__(self, dt, num_honeypots = 5):
+    def __init__(self, dt, num_honeypots = 5, **kwargs):
         self.dt = dt
         self.graph = dt.graph
         self.subnets_map = dt.get_subnets()

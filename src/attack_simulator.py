@@ -186,6 +186,37 @@ class AttackSimulator:
         target = sorted_targets[0][0]
 
         return target
+    
+    def get_top_target(self, num_targets=10):
+
+        sorted_targets = []
+
+        for n in self.assets:
+            score = self.graph.nodes[n].get('asset_score', 0.0)
+            asset_type = self.graph.nodes[n].get('type')
+
+            if score > 0 and asset_type != 'Router':
+                num_vulnerabilities = 0
+
+                for sw in self.graph.successors(n):
+                    if self.graph.nodes[sw].get('type') == 'Software' and self.graph.nodes[sw].get('max_cvss', 0.0) >= 8.0:
+
+                        vulnerabilities = self.graph.nodes[sw].get('vulnerabilities', [])
+
+                        num_vulnerabilities += sum(1 for v in vulnerabilities
+                                                  if v['score'] >= 9.0)
+                
+                sorted_targets.append((n, score, num_vulnerabilities))
+    
+        # in case of asset score equality order by total number of critical vulnerabilities
+        sorted_targets.sort(key=lambda x: (x[1], x[2]), reverse=True)
+
+        if not sorted_targets:
+            return []
+
+        top_targets = [t[0] for t in sorted_targets[:num_targets]]
+
+        return top_targets
 
     def targeted_initial_access(self, target):
 
@@ -226,11 +257,12 @@ class AttackSimulator:
             return max_vulnerable_hosts[0][0]
 
         
-    def targeted_attack(self):
+    def targeted_attack(self, target=None):
 
         visited_nodes = []
 
-        target = self.target_choice()
+        if target is None:
+            target = self.target_choice()
 
         if not target:
             return []
