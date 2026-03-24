@@ -8,16 +8,18 @@ from lateral_movement import *
 # --- ATTACK SIMULATOR CLASS ---
 
 class AttackSimulator:
-    def __init__(self, dt, lm, num_simulation = 1000, threshold = 7.0, **kwargs):
+    def __init__(self, dt, lm, num_simulation = 1000, max_steps = 15, threshold = 8.0, **kwargs):
         self.dt = dt
 
         self.graph = self.dt.graph
         self.assets = self.dt.initialize_assets()
 
         self.lm = lm
-        self.num_simulation = num_simulation
 
-        self.threshold = 7.0
+        self.num_simulation = num_simulation
+        self.max_steps = max_steps
+
+        self.threshold = threshold
 
     def lm_simulator(self):
 
@@ -63,6 +65,9 @@ class AttackSimulator:
         
         max_score = max(self.graph.nodes[g].get('asset_score', 0.0) for g in gateways)
 
+        if max_score < self.threshold:
+            return None
+
         subnets = []
 
         for g in gateways:
@@ -87,6 +92,9 @@ class AttackSimulator:
 
         max_score = max(self.graph.nodes[n].get('asset_score', 0.0) for n in successors)
 
+        if max_score < self.threshold:
+            return None
+
         # find nodes with max score
         nodes = []
 
@@ -98,15 +106,24 @@ class AttackSimulator:
     
     def opportunistic_attack(self):
 
-        visited_nodes = set()
+        nodes_set = set()
+        visited_nodes = []
 
         entry_point = self.opportunistic_initial_access()
 
-        visited_nodes.add(entry_point)
+        if entry_point is None:
+            return []
+
+        nodes_set.add(entry_point)
+        visited_nodes.append(entry_point)
 
         current_node = entry_point
 
-        while True:
+        steps = 0
+
+        while steps < self.max_steps:
+
+            steps += 1
 
             if current_node is None:
                 break
@@ -114,7 +131,7 @@ class AttackSimulator:
             # current node is gateway
             if self.graph.nodes[current_node].get('type') == 'Router':
 
-                next_node = self.opportunistic_neighbor_choice(current_node, visited_nodes)
+                next_node = self.opportunistic_neighbor_choice(current_node, nodes_set)
 
                 if next_node is None:
                     main_router = self.lm.router_hop(current_node)
@@ -122,21 +139,25 @@ class AttackSimulator:
                     if main_router is None:
                         break
 
-                    next_subnet = self.opportunistic_subnet_choice(main_router, visited_nodes)
+                    next_subnet = self.opportunistic_subnet_choice(main_router, nodes_set)
 
                     if next_subnet is None:
                         break
+                    
+                    nodes_set.add(next_subnet)
+                    visited_nodes.append(next_subnet)
 
-                    visited_nodes.add(next_subnet)
                     current_node = next_subnet
                 else:
-                    visited_nodes.add(next_node)
+                    nodes_set.add(next_node)
+                    visited_nodes.append(next_node)
+
                     current_node = next_node
 
             # current node is host/vm
             elif self.graph.nodes[current_node].get('type') in ['Host', 'VirtualMachine']:
 
-                next_node = self.opportunistic_neighbor_choice(current_node, visited_nodes)
+                next_node = self.opportunistic_neighbor_choice(current_node, nodes_set)
 
                 if next_node is None:
                     gateway = self.lm.router_hop(current_node)
@@ -144,10 +165,14 @@ class AttackSimulator:
                     if gateway is None:
                         break
                     else:
-                        visited_nodes.add(gateway)
+                        nodes_set.add(gateway)
+                        visited_nodes.append(gateway)
+
                         current_node = gateway
                 else:
-                    visited_nodes.add(next_node)
+                    nodes_set.add(next_node)
+                    visited_nodes.append(next_node)
+
                     current_node = next_node
             else:
                 break
@@ -187,7 +212,7 @@ class AttackSimulator:
 
         return target
     
-    def get_top_target(self, num_targets=10):
+    def get_top_targets(self, num_targets=10):
 
         sorted_targets = []
 
