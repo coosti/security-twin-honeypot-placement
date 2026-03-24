@@ -288,6 +288,12 @@ class DigitalTwin:
         for node_type in node_types.values(): type_counts[node_type] += 1
         for n_type, count in sorted(type_counts.items()): print(f"  - {n_type}: {count}")
         print(f"Vulnerabilità Totali Rilevate: {total_vulns}")
+
+        subnets_map = self.get_subnets()
+        print(f"\nSottoreti valide ({len(subnets_map)}):")
+        for subnet, hosts in sorted(subnets_map.items()):
+            print(f"  - {subnet}: {len(hosts)} host/VM associati")
+
         print("----------------------------------------\n")
 
     def _get_color_by_vulnerability(self, node_data):

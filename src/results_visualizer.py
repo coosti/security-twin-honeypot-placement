@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def generate_graph(strategies, opportunistic_dr, targeted_dr):
+def generate_graph(strategies, opportunistic_dr, targeted_dr, output_path):
 
     x = np.arange(len(strategies))
 
@@ -29,5 +29,5 @@ def generate_graph(strategies, opportunistic_dr, targeted_dr):
 
     plt.tight_layout()
 
-    plt.savefig('honeypot_placement.png', dpi=300)
+    plt.savefig(output_path, dpi=300)
     plt.show()
